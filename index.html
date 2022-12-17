@@ -104,7 +104,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Are you sure you want to continue connecting(yes/no)?</span><br></pre></td></tr></table></figure>
 <p>输入<code>yes</code>即可，随后出现自己的用户名即说明连接成功。<br><font color="#dd0000"><br>*如果出现以下内容：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh: connect to host github.com port 22: Connection timed out</span><br></pre></td></tr></table></figure>
-<p>在连接Github之前，进入路径C:\Users\Astar.ssh\id_rsa.pub，新建config文本文档，输入以下内容：</p>
+<p>在连接Github之前，进入路径<strong>C:\Users\Astar.ssh\id_rsa.pub</strong>，新建config文本文档，输入以下内容：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">User &#123;usermail&#125;</span><br><span class="line">Hostname ssh.github.com</span><br><span class="line">PreferredAuthentications publickey</span><br><span class="line">IdentityFile ~/.ssh/id_rsa</span><br><span class="line">Port 443</span><br></pre></td></tr></table></figure>
 <p>其中{useremail}为自己GitHub账号的注册邮箱。<br></font></p>
 <h2 id="7-修改本地-config-yml文件"><a href="#7-修改本地-config-yml文件" class="headerlink" title="7.修改本地_config.yml文件"></a>7.修改本地_config.yml文件</h2><p>使用记事本打开该文件，在<strong>deploy</strong>行修改以下内容：</p>
