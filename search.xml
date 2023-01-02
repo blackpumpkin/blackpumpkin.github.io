@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>【markdown】一些markdown的书写规范</title>
+      <link href="/2023/01/02/%E3%80%90Markdown%E3%80%91%E4%B8%80%E4%BA%9Bmarkdown%E7%9A%84%E4%B9%A6%E5%86%99%E8%A7%84%E8%8C%83/"/>
+      <url>/2023/01/02/%E3%80%90Markdown%E3%80%91%E4%B8%80%E4%BA%9Bmarkdown%E7%9A%84%E4%B9%A6%E5%86%99%E8%A7%84%E8%8C%83/</url>
+      
+        <content type="html"><![CDATA[<h1 id="标题级别"><a href="#标题级别" class="headerlink" title="标题级别"></a>标题级别</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 第一级标题</span><br><span class="line">## 第二级标题</span><br><span class="line">### 第三级标题</span><br><span class="line">#### 第四级标题</span><br><span class="line">##### 第五级标题</span><br><span class="line">###### 第六级标题</span><br></pre></td></tr></table></figure><h1 id="第一级标题"><a href="#第一级标题" class="headerlink" title="第一级标题"></a>第一级标题</h1><h2 id="第二级标题"><a href="#第二级标题" class="headerlink" title="第二级标题"></a>第二级标题</h2><h3 id="第三级标题"><a href="#第三级标题" class="headerlink" title="第三级标题"></a>第三级标题</h3><h4 id="第四级标题"><a href="#第四级标题" class="headerlink" title="第四级标题"></a>第四级标题</h4><h5 id="第五级标题"><a href="#第五级标题" class="headerlink" title="第五级标题"></a>第五级标题</h5><h6 id="第六级标题"><a href="#第六级标题" class="headerlink" title="第六级标题"></a>第六级标题</h6><hr><h1 id="文字的加粗、斜体、下划线、删除线"><a href="#文字的加粗、斜体、下划线、删除线" class="headerlink" title="文字的加粗、斜体、下划线、删除线"></a>文字的加粗、斜体、下划线、删除线</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**加粗文字**</span><br><span class="line">*斜体文字*</span><br><span class="line">&lt;u&gt;下划线&lt;/u&gt;</span><br><span class="line">~~删除线~~</span><br><span class="line">***加粗斜体文字***</span><br></pre></td></tr></table></figure><p><strong>加粗文字</strong><br><em>斜体文字</em><br><u>下划线</u><br><del>删除线</del><br><em><strong>加粗斜体文字</strong></em></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【hexo】分享一下用hexo部署到github时踩过的坑</title>
       <link href="/2022/12/22/%E3%80%90hexo%E3%80%91%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%8B%E7%94%A8hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E6%97%B6%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/"/>
       <url>/2022/12/22/%E3%80%90hexo%E3%80%91%E5%88%86%E4%BA%AB%E4%B8%80%E4%B8%8B%E7%94%A8hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E6%97%B6%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</url>
