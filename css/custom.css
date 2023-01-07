@@ -239,3 +239,10 @@
     text-shadow: #5636ed 0 0 5px;
   }
 }
+
+
+/* 翻页按钮居中，即文章双侧栏显示(小冰)bug修复 */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
