@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>自用的一些完全免费的机场</title>
+      <link href="/post/2d1f00a6.html"/>
+      <url>/post/2d1f00a6.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>以下机场的特点在于只需注册便可以通过每日签到等操作实现完全免费，但部分线路速率、稳定性等无法保障，因此想要进行看视频等，仍然需要找个速率快、稳定性好（不会跑路）、价格合适的机场。</p></blockquote><hr><!--|机场名称|客户端支持|线路速率|白嫖方式|官网链接||1|V2ray|Clash|Shadowshocks/r|1||---|---|---|---|---||猪の免费大飞机|50|无||2|60|无||3|70|有扣减|--><style>table, td, thtable{    border:1px solid;}th{    background-color:#FFCC66;    color:black;    text-align:center;}td{    background-color:rgba(0,0,225,0.3);    color:black;    text-align:center;}</style><table border="1" cellpadding="10" cellspacing="10" align="center">    <tr>        <th rowspan="2">机场名称</th>        <th colspan="3">支持客户端</th>        <th rowspan="2">支持国家、地区</th>        <th rowspan="2">白嫖方式</th>        <th rowspan="2">官网链接</th>        <th rowspan="2">备注</th>    </tr>    <tr>        <th>V2ray</th>        <th>Clash</th>        <th>SS(R)</th>    </tr>    <tr>        <td>猪の免费大飞机</td>        <td>√</td>        <td>×</td>        <td>×</td>        <td>日本，香港，台湾，美国，韩国</td>        <td>每日签到</td>        <td>https://forever.pork16.com/</td>        <td></td>    </tr>        <tr>        <td>JJCloud</td>        <td>√</td>        <td>√</td>        <td>×</td>        <td>日本，香港，美国</td>        <td>商店0元复购</td>        <td>https://jjcloud.xyz/</td>        <td></td>    </tr>        <tr>        <td>星河583</td>        <td>√</td>        <td>√</td>        <td>×</td>        <td>美国，新加坡，印度，德国，加拿大</td>        <td>商店1元复购，加入官方telegram群组获得1元优惠券</td>        <td>https://jjcloud.xyz/</td>        <td>官方telegram群组：https://t.me/xh583180</td>     </tr></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机场 </tag>
+            
+            <tag> clash </tag>
+            
+            <tag> 梯子 </tag>
+            
+            <tag> 科学上网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【markdown】一些markdown的书写规范</title>
       <link href="/post/13950859.html"/>
       <url>/post/13950859.html</url>
@@ -13,7 +44,7 @@
       
       <categories>
           
-          <category> markdown </category>
+          <category> 博客技巧 </category>
           
       </categories>
       
@@ -21,6 +52,8 @@
         <tags>
             
             <tag> markdown </tag>
+            
+            <tag> 博客技巧 </tag>
             
         </tags>
       
@@ -38,7 +71,7 @@
       
       <categories>
           
-          <category> hexo </category>
+          <category> 博客技巧 </category>
           
       </categories>
       
@@ -46,6 +79,8 @@
         <tags>
             
             <tag> hexo </tag>
+            
+            <tag> 博客技巧 </tag>
             
         </tags>
       
