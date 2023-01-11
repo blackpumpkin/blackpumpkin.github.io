@@ -253,7 +253,7 @@
   max-width: 1200px;
   margin: 0 auto 12px;
   display: flex;
-  color: rgb(255 255 255 / 80%) !important;
+  color: rgb(25,25,25) !important;       /* 底部文字颜色   */
   text-align: left;
   flex-wrap: wrap;
 }
