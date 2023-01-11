@@ -7,7 +7,7 @@
     z-index: 1919810;
   }
   [data-theme="light"] #fps {
-    background-color: rgba(218, 112, 214, 0.4);
+    background-color: rgba(255, 235, 205, 0.4);
     backdrop-filter: var(--backdrop-filter);
     padding: 4px;
     border-radius: 4px;
