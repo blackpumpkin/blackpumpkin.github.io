@@ -253,7 +253,7 @@
   max-width: 1200px;
   margin: 0 auto 12px;
   display: flex;
-  color: rgb(25,25,25) !important;       /* 底部文字颜色   */
+  color: rgb(255,255,255) !important;       /* 底部文字颜色   */
   text-align: left;
   flex-wrap: wrap;
 }
@@ -402,11 +402,14 @@
     flex-basis: 100% !important;
   }
 }
+
+/* 页脚遮罩 */
 #footer-wrap a {
   border-radius: 30px;
 }
 #footer-wrap {
   padding: 20px 20px;
+  background-color: #12121288 !important;
 }
 
 /* 页脚心跳动画 */
