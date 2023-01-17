@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="Zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>正在加载中，请稍等哦~</title>
+        
+    <style>
+    
+        body,
+        html {
+            height: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 背景设置 */
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(176,224,230, 0.2);
+        }
+
+        /* 波浪方块大小 */
+        .item {
+            width: 40px;
+            height: 180px;
+            margin: 0 8px;
+            background-color: rgba(221,160,221,0.3);
+            animation: wave 1.4s infinite ease-in-out;
+            animation-delay: var(--delay);
+
+        }
+
+
+        /* 波浪的关键帧 */
+        @keyframes wave {
+            0%,
+            40%,
+            100% {
+                transform: scale(0.4);
+            }
+            60% {
+                transform: scale(1);
+            }
+        }
+
+    </style>
+
+</head>
+
+<!--单个方块设置-->
+<body>
+    <div class="container">
+        <span class="item item1" style="--delay:-1.3s"></span>
+        <span class="item item2" style="--delay:-1.2s"></span>
+        <span class="item item3" style="--delay:-1.1s"></span>
+        <span class="item item4" style="--delay:-1.0s"></span>
+        <span class="item item5" style="--delay:-0.9s"></span>
+        <span class="item item5" style="--delay:-0.8s"></span>
+        <span class="item item5" style="--delay:-0.7s"></span>
+    </div>
+
+</body>
+
+</html>
