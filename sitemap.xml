@@ -160,34 +160,6 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/tags/hexo/</loc>
-    <lastmod>2023-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/tags/Vercel/</loc>
-    <lastmod>2023-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%B3%E8%AF%B7/</loc>
-    <lastmod>2023-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/</loc>
-    <lastmod>2023-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.blackpumpkin.xyz/tags/%E6%9C%BA%E5%9C%BA/</loc>
     <lastmod>2023-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -210,6 +182,34 @@
   
   <url>
     <loc>http://www.blackpumpkin.xyz/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <lastmod>2023-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/tags/hexo/</loc>
+    <lastmod>2023-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/tags/Vercel/</loc>
+    <lastmod>2023-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%B3%E8%AF%B7/</loc>
+    <lastmod>2023-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/</loc>
     <lastmod>2023-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
