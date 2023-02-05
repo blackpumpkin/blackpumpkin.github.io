@@ -1,10 +1,10 @@
+http://www.blackpumpkin.xyz/post/86516c22.html
 http://www.blackpumpkin.xyz/post/6c05f09f.html
 http://www.blackpumpkin.xyz/gallery/cover/index.html
 http://www.blackpumpkin.xyz/post/13950859.html
 http://www.blackpumpkin.xyz/about/index.html
 http://www.blackpumpkin.xyz/link/index.html
 http://www.blackpumpkin.xyz/post/2d1f00a6.html
-http://www.blackpumpkin.xyz/post/86516c22.html
 http://www.blackpumpkin.xyz/comments/index.html
 http://www.blackpumpkin.xyz/tags/index.html
 http://www.blackpumpkin.xyz/categories/index.html
@@ -15,9 +15,9 @@ http://www.blackpumpkin.xyz/gallery/avatar/index.html
 http://www.blackpumpkin.xyz/
 http://www.blackpumpkin.xyz/tags/markdown/
 http://www.blackpumpkin.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/
+http://www.blackpumpkin.xyz/tags/hexo/
 http://www.blackpumpkin.xyz/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%B3%E8%AF%B7/
 http://www.blackpumpkin.xyz/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/
-http://www.blackpumpkin.xyz/tags/hexo/
 http://www.blackpumpkin.xyz/tags/%E6%9C%BA%E5%9C%BA/
 http://www.blackpumpkin.xyz/tags/clash/
 http://www.blackpumpkin.xyz/tags/%E6%A2%AF%E5%AD%90/
