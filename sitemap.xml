@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/charts/index.html</loc>
+    <loc>http://www.blackpumpkin.xyz/animation/index.html</loc>
+    
+    <lastmod>2023-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/bangumis/index.html</loc>
+    
+    <lastmod>2023-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/about/index.html</loc>
+    
+    <lastmod>2023-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/video/index.html</loc>
+    
+    <lastmod>2023-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/gallery/index.html</loc>
     
     <lastmod>2023-02-17</lastmod>
     
@@ -101,24 +137,6 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/about/index.html</loc>
-    
-    <lastmod>2023-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/bangumis/index.html</loc>
-    
-    <lastmod>2023-02-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.blackpumpkin.xyz/gallery/cover/index.html</loc>
     
     <lastmod>2023-02-04</lastmod>
@@ -146,25 +164,7 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/video/index.html</loc>
-    
-    <lastmod>2023-01-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.blackpumpkin.xyz/music/index.html</loc>
-    
-    <lastmod>2023-01-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/gallery/index.html</loc>
     
     <lastmod>2023-01-16</lastmod>
     
