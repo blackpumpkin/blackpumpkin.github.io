@@ -678,7 +678,7 @@
   }
 }
 
-/* 字体 */
+/* 自定义字体 */
 @font-face {
   /* 为载入的字体取名字(随意) */
   font-family: 'XLWK';	
@@ -690,4 +690,24 @@
   font-style: normal;
   /* 定义显示样式 */
   font-display: block;
+}
+
+
+/* 控制图标默认大小和颜色等属性 */
+.iconfont {
+  font-family: "iconfont" !important;
+  /* 这里可以自定义图标大小 */
+  font-size: 3em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 调节svg格式 */
+svg.icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
