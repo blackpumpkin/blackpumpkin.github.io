@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.blackpumpkin.xyz/gallery/cover/index.html</loc>
+    
+    <lastmod>2023-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/effects/index.html</loc>
+    
+    <lastmod>2023-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.blackpumpkin.xyz/video/index.html</loc>
     
     <lastmod>2023-02-19</lastmod>
@@ -23,15 +41,6 @@
     <loc>http://www.blackpumpkin.xyz/post/eb7308cc.html</loc>
     
     <lastmod>2023-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/animation/index.html</loc>
-    
-    <lastmod>2023-02-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -131,15 +140,6 @@
     <loc>http://www.blackpumpkin.xyz/post/2d1f00a6.html</loc>
     
     <lastmod>2023-02-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/gallery/cover/index.html</loc>
-    
-    <lastmod>2023-02-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
