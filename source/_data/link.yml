@@ -1,0 +1,59 @@
+- class_name: 1.技术支持
+  class_desc: 本网站的搭建由以下开源作者提供技术支持：
+  link_list: 
+    - name: Hexo 
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
+      siteshot: https://source.fomal.cc/siteshot/hexo.io.jpg
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/avatar.png
+      descr: A Simple and Card UI Design theme for Hexo
+      siteshot: 
+#   - name: 黑心の南瓜
+#     link: https://www.blackpumpkin.xyz/
+#     avatar: https://figure.pages.dev/img/avatar.jpg
+#     descr: 抛掉过去，不一定有好的开始，但一定不会比过去坏。
+#     siteshot: https://figure.pages.dev/img/siteshot.png
+
+
+
+- class_name: 2.友链
+  class_desc: 欢迎互加友链！
+  link_list:
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/avatar.webp
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+    - name: Ethan.Tzy
+      link: https://tzy1997.com/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+      screenshot: https://bu.dusays.com/2022/06/01/6296ceb2e4935.jpg
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
+    - name: Horon's Blog
+      link: http://blog.horon.top/
+      avatar: https://bu.dusays.com/2023/02/05/63dfc7f2ced91.png
+      descr: 皓然主页
+      siteshot: https://bu.dusays.com/2023/02/05/63dfc447b9f40.png
+    - name: Raindy
+      link: https://www.raindy.xyz/
+      avatar: https://s2.loli.net/2022/11/18/M3X1yLpOlwRP5SJ.jpg
+      descr: 疏影横斜水清浅，暗香浮动月黄昏
+    - name: ReCclay🖥️
+      link: https://www.recclay.cc/
+      siteshot: https://www.recclay.cc/img/2023-01-02.png
+      avatar: https://www.recclay.cc/img/recclay.png
+      descr: 芯片硅农，别忘无恙🧐
+    - name: 无尽白日梦
+      link: https//daydream.icu
+      siteshot: 
+      avatar: https://daydream.icu/upload/2022/05/logo(%E9%80%8F%E6%98%8E).png
+      descr: 一个咸鱼般的码农；拥有后天赋能的野生厨艺;
+
