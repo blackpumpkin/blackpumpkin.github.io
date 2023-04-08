@@ -299,13 +299,6 @@
 
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/tags/new-bing/</loc>
-    <lastmod>2023-04-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.blackpumpkin.xyz/tags/chatgpt/</loc>
     <lastmod>2023-04-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -313,7 +306,14 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/tags/hexo/</loc>
+    <loc>http://www.blackpumpkin.xyz/tags/new-bing/</loc>
+    <lastmod>2023-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.xyz/tags/markdown/</loc>
     <lastmod>2023-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -327,14 +327,14 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/tags/SEO/</loc>
+    <loc>http://www.blackpumpkin.xyz/tags/hexo/</loc>
     <lastmod>2023-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.xyz/tags/markdown/</loc>
+    <loc>http://www.blackpumpkin.xyz/tags/SEO/</loc>
     <lastmod>2023-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
