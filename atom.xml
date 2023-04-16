@@ -6,7 +6,7 @@
   <link href="http://www.blackpumpkin.xyz/atom.xml" rel="self"/>
   
   <link href="http://www.blackpumpkin.xyz/"/>
-  <updated>2023-04-16T10:53:08.816Z</updated>
+  <updated>2023-04-16T10:53:27.832Z</updated>
   <id>http://www.blackpumpkin.xyz/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.blackpumpkin.xyz/post/5c84e6fe.html"/>
     <id>http://www.blackpumpkin.xyz/post/5c84e6fe.html</id>
     <published>2023-04-16T07:47:36.000Z</published>
-    <updated>2023-04-16T10:53:08.816Z</updated>
+    <updated>2023-04-16T10:53:27.832Z</updated>
     
     <content type="html"><![CDATA[<div class="note info flat"><p>官网的ChatGPT对话很容易被打断，通过第三方部署可以很好的解决这个问题，并且不需要挂节点，本地网络即可访问。<br>参考教程：<a href="https://www.fomal.cc/posts/74ac8dc8.html">无服务器部署自己的chatGPT</a></p></div><p>项目名称：ChatGPT-Next-Web<br>项目地址：<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">Yidadaa/ChatGPT-Next-Web</a><br>部署教程：详细见<a href="https://github.com/Yidadaa/ChatGPT-Next-Web/blob/main/README_CN.md">开源文档</a>。</p><h1 id="一、获取API-keys"><a href="#一、获取API-keys" class="headerlink" title="一、获取API keys"></a>一、获取API keys</h1><p>账号注册可参考教程<a href="https://www.blackpumpkin.xyz/post/8ee3673d.html">【ChatGPT】ChatGPT的注册流程分享</a>。<br>登陆账号后，我们打开<a href="https://platform.openai.com/">OPENAI的控制台</a>，点击右上角头像，选择<code>View API keys</code>——<code>+ Create new secret key</code>，输入任意名称后确定，<strong>请牢记KEY值</strong>。</p><h1 id="二、Vercel部署"><a href="#二、Vercel部署" class="headerlink" title="二、Vercel部署"></a>二、Vercel部署</h1><p>fork<code>ChatGPT-Next-Web</code>项目后，在Vercel将本项目部署，部署过程中需要在<code>Configure Project</code>处的<code>OPENAI_API_KEY</code>填写我们上文的<code>KEY</code>值，<code>CODE</code>填写一个你喜欢的密码并牢记。<br>点击<code>Deploy</code>部署。</p><h1 id="三、自定义域名（可选）"><a href="#三、自定义域名（可选）" class="headerlink" title="三、自定义域名（可选）"></a>三、自定义域名（可选）</h1><p>无需一级域名，二级域名也是可以的，域名的托管和注册可参考<a href="https://www.blackpumpkin.xyz/post/fa20ec4f.html">【hexo】将hexo部署到托管平台+绑定自定义域名</a>。</p><hr><h1 id="拓展阅读：Github上其他的第三方部署项目"><a href="#拓展阅读：Github上其他的第三方部署项目" class="headerlink" title="拓展阅读：Github上其他的第三方部署项目"></a>拓展阅读：Github上其他的第三方部署项目</h1><ul><li><a href="https://github.com/Chanzhaoyu/chatgpt-web">Chanzhaoyu/chatgpt-web</a></li><li><a href="https://github.com/ourongxing/chatgpt-vercel">ourongxing/chatgpt-vercel</a></li><li><a href="https://github.com/ddiu8081/chatgpt-demo">ddiu8081/chatgpt-demo</a></li></ul>]]></content>
     
