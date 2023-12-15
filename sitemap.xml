@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://www.blackpumpkin.xyz/gallery/cover/index.html</loc>
+    
+    <lastmod>2023-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.blackpumpkin.xyz/support/index.html</loc>
     
     <lastmod>2023-12-13</lastmod>
@@ -221,15 +230,6 @@
     <loc>http://www.blackpumpkin.xyz/live2d-widget/README.html</loc>
     
     <lastmod>2023-02-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.xyz/gallery/cover/index.html</loc>
-    
-    <lastmod>2023-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
