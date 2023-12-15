@@ -6,7 +6,7 @@
   <link href="http://www.blackpumpkin.xyz/atom.xml" rel="self"/>
   
   <link href="http://www.blackpumpkin.xyz/"/>
-  <updated>2023-04-20T12:56:16.980Z</updated>
+  <updated>2023-12-15T03:27:38.626Z</updated>
   <id>http://www.blackpumpkin.xyz/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简易音声机翻教程</title>
+    <link href="http://www.blackpumpkin.xyz/post/f46969ab.html"/>
+    <id>http://www.blackpumpkin.xyz/post/f46969ab.html</id>
+    <published>2023-12-15T01:41:15.000Z</published>
+    <updated>2023-12-15T03:27:38.626Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><p>有时从网上下载的音声没有翻译，我们可以用此方法解决燃眉之急。</p></div><div class="note default flat"><p>参考教程：<a href="https://www.bilibili.com/video/BV15c411j789/">AI自动生成字幕 - 中日英多语言支持，完全免费，本地运行</a></p></div><h1 id="一、语音生成字幕文件"><a href="#一、语音生成字幕文件" class="headerlink" title="一、语音生成字幕文件"></a>一、语音生成字幕文件</h1><p>本次我们需要使用到的软件叫做WhisperDesktop，其可以帮助我们把音声内容提取为.srt一类的外挂字幕文件。<br>访问WhisperDesktop的<a href="https://github.com/Const-me/Whisper">github仓库</a>，直接下载发行版即可。<br>需要注意的是发行版内部并没有自带模型文件，因此我们还需要单独下载模型文件。<br>访问whisper.cpp的<a href="https://huggingface.co/ggerganov/whisper.cpp/tree/main">huggingface模型库</a>或者<a href="https://github.com/ggerganov/whisper.cpp/tree/master/models">github仓库</a>，下载相应的模型文件，这里推荐使用中等模型或者大模型。<br><img src="https://figure.pages.dev/post/音声翻译/微信截图_20231215104651.png" width="400"><br><br>下载完毕后，我们打开<strong>WhisperDesktop.exe</strong>文件，初次打开需要我们选择一下使用的模型文件，我们在<code>Model Path</code>内选择模型文件，点击<code>OK</code>即可。<br><img src="https://figure.pages.dev/post/音声翻译/微信截图_20231215105025.png" width="400"><br><br>我们进入到了正式的操作界面。<br>在<code>Language</code>内选择我们需要翻译的文件本身的语言（音声一般选择<code>Japanese</code>），在<code>Transcribe File</code>内选择我们想输出的字幕文件类型，这里我们选择<code>SubRip Subtitles</code>，输出的外挂字幕文件类型为srt格式。<br>我们可以勾选<code>Place that file to the input folder</code>，这样生成的外挂字幕文件与音声文件便默认处于同一文件夹内了。<br>最后点击<code>Transcribe</code>，等待字幕文件生成完毕即可。<br><img src="https://figure.pages.dev/post/音声翻译/screenshot20231129" width="400"><br></p><h1 id="二、字幕文件翻译"><a href="#二、字幕文件翻译" class="headerlink" title="二、字幕文件翻译"></a>二、字幕文件翻译</h1><p>我们使用PotPlayer的实时字幕翻译功能。<br>打开PotPlayer，在主界面内右键，依次选择<code>字幕</code>——<code>实时字幕翻译</code>——<code>实时字幕翻译设置</code>，可以发现里面有谷歌翻译和必应翻译等翻译器，选择想使用的翻译器即可。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note info flat&quot;&gt;&lt;p&gt;有时从网上下载的音声没有翻译，我们可以用此方法解决燃眉之急。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;note default flat&quot;&gt;&lt;p&gt;参考教程：&lt;a href=&quot;https://www.bilibil</summary>
+      
+    
+    
+    
+    <category term="网络技巧" scheme="http://www.blackpumpkin.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="音声" scheme="http://www.blackpumpkin.xyz/tags/%E9%9F%B3%E5%A3%B0/"/>
+    
+    <category term="ACG" scheme="http://www.blackpumpkin.xyz/tags/ACG/"/>
+    
+  </entry>
   
   <entry>
     <title>【ChatGPT】ChatGPT的无服务器部署</title>
