@@ -3,11 +3,11 @@
   <title>黑心の南瓜🎃</title>
   
   <subtitle>Blackpumpkin</subtitle>
-  <link href="http://www.blackpumpkin.xyz/atom.xml" rel="self"/>
+  <link href="http://www.blackpumpkin.top/atom.xml" rel="self"/>
   
-  <link href="http://www.blackpumpkin.xyz/"/>
-  <updated>2024-01-01T11:23:53.763Z</updated>
-  <id>http://www.blackpumpkin.xyz/</id>
+  <link href="http://www.blackpumpkin.top/"/>
+  <updated>2024-01-01T11:24:10.697Z</updated>
+  <id>http://www.blackpumpkin.top/</id>
   
   <author>
     <name>黑心の南瓜🎃</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Steam自动探索队列</title>
-    <link href="http://www.blackpumpkin.xyz/post/e70c1929.html"/>
-    <id>http://www.blackpumpkin.xyz/post/e70c1929.html</id>
+    <link href="http://www.blackpumpkin.top/post/e70c1929.html"/>
+    <id>http://www.blackpumpkin.top/post/e70c1929.html</id>
     <published>2024-01-01T10:41:10.000Z</published>
-    <updated>2024-01-01T11:23:53.763Z</updated>
+    <updated>2024-01-01T11:24:10.697Z</updated>
     
     <content type="html"><![CDATA[<div class="note default flat"><p>参考教程：<a href="https://keylol.com/t157861-1-1">Steam探索队列 控制台版, 无视限区游戏</a></p></div><h1 id="一、控制台执行脚本"><a href="#一、控制台执行脚本" class="headerlink" title="一、控制台执行脚本"></a>一、控制台执行脚本</h1><p>1.打开Steam商店主页并处于登陆状态（不会真有人不知道正版Steam主页是<a href="https://store.steampowered.com/">这个</a>而不是XX管家、XX游戏中心一类的吧）<br>2.在Steam商店页面打开浏览器控制台, 此处以chrome浏览器为例，chrome是F12键，切换到<code>控制台</code>一栏（英文界面为<code>console</code>一栏）<br>3.将下面的代码复制到浏览器的控制台回车运行即可。<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">(<span class="keyword">function</span> <span class="title function_">_exec</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="keyword">var</span> appids, </span><br><span class="line">    running = <span class="literal">true</span>, </span><br><span class="line">    queueNumber, </span><br><span class="line">    progressDialog = <span class="title class_">ShowAlertDialog</span>(<span class="string">&#x27;探索中&#x27;</span>, $J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>).<span class="title function_">append</span>($J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>, &#123;<span class="string">&#x27;class&#x27;</span>: <span class="string">&#x27;waiting_dialog_throbber&#x27;</span>&#125;) ).<span class="title function_">append</span>( $J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>, &#123;<span class="string">&#x27;id&#x27;</span>: <span class="string">&#x27;progressContainer&#x27;</span>&#125;).<span class="title function_">text</span>(<span class="string">&#x27;获取进度...&#x27;</span>) ), <span class="string">&#x27;停止&#x27;</span>).<span class="title function_">done</span>(abort);</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">abort</span>(<span class="params"></span>)&#123;</span><br><span class="line">  running = <span class="literal">false</span>;</span><br><span class="line">  progressDialog.<span class="title class_">Dismiss</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">retry</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="title function_">abort</span>();</span><br><span class="line">  <span class="title class_">ShowConfirmDialog</span>(<span class="string">&#x27;错误&#x27;</span>, <span class="string">&#x27;是否重试?&#x27;</span>, <span class="string">&#x27;重试&#x27;</span>, <span class="string">&#x27;放弃&#x27;</span>).<span class="title function_">done</span>(_exec)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">clearApp</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="keyword">if</span>(!running)</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  <span class="title function_">showProgress</span>();</span><br><span class="line">  <span class="keyword">var</span> appid = appids.<span class="title function_">shift</span>();</span><br><span class="line">  !appid ? <span class="title function_">generateQueue</span>() : $J.<span class="title function_">post</span>( appids.<span class="property">length</span> ? <span class="string">&#x27;/app/&#x27;</span> + appid : <span class="string">&#x27;/explore/next/&#x27;</span>, &#123;<span class="attr">sessionid</span>: g_sessionID, <span class="attr">appid_to_clear_from_queue</span>: appid&#125; ).<span class="title function_">done</span>(clearApp).<span class="title function_">fail</span>(retry); </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">generateQueue</span>(<span class="params"></span>)&#123;</span><br><span class="line">  running &amp;&amp; $J.<span class="title function_">post</span>(<span class="string">&#x27;/explore/generatenewdiscoveryqueue&#x27;</span>, &#123;<span class="attr">sessionid</span>: g_sessionID, <span class="attr">queuetype</span>: <span class="number">0</span>&#125;).<span class="title function_">done</span>(beginQueue).<span class="title function_">fail</span>(retry);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">beginQueue</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="keyword">if</span>(!running)</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  $J.<span class="title function_">get</span>(<span class="string">&#x27;/explore/&#x27;</span>).<span class="title function_">done</span>(<span class="keyword">function</span>(<span class="params">htmlText</span>)&#123;</span><br><span class="line">    <span class="keyword">var</span> cardInfo = htmlText.<span class="title function_">match</span>(<span class="regexp">/&lt;div class=&quot;subtext&quot;&gt;\D+(\d)\D+&lt;\/div&gt;/</span>);</span><br><span class="line">    <span class="keyword">if</span>( !cardInfo )&#123;</span><br><span class="line">      <span class="title function_">abort</span>();</span><br><span class="line">      <span class="title class_">ShowAlertDialog</span>(<span class="string">&#x27;完成&#x27;</span>,<span class="string">&#x27;已完成全部3轮探索队列&#x27;</span>);</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> matchedAppids = htmlText.<span class="title function_">match</span>(<span class="regexp">/0,\s+(\[.*\])/</span>);</span><br><span class="line">    <span class="keyword">if</span>( !matchedAppids )&#123;</span><br><span class="line">      <span class="title function_">retry</span>();</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    appids = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(matchedAppids[<span class="number">1</span>]);</span><br><span class="line">    queueNumber = cardInfo[<span class="number">1</span>];</span><br><span class="line">    appids.<span class="property">length</span> == <span class="number">0</span> ? <span class="title function_">generateQueue</span>() : <span class="title function_">clearApp</span>();</span><br><span class="line">    <span class="title function_">showProgress</span>();</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">showProgress</span>(<span class="params"></span>)&#123;</span><br><span class="line">  $J(<span class="string">&#x27;#progressContainer&#x27;</span>).<span class="title function_">html</span>( <span class="string">&#x27;&lt;br&gt;剩余&#x27;</span> + queueNumber + <span class="string">&#x27;个待探索队列, 当前队列剩余&#x27;</span> + appids.<span class="property">length</span> + <span class="string">&#x27;个待探索游戏&#x27;</span> );</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">beginQueue</span>();</span><br><span class="line">&#125;())</span><br></pre></td></tr></table></figure><br>理论上是支持所有浏览器控制台的, 也不会遇到游戏限区的问题。<br>tips: 在控制台输入行按键盘的上箭头(↑)可快速输入上次运行过的命令。</p><h1 id="二、Tampermonkey自动执行脚本"><a href="#二、Tampermonkey自动执行脚本" class="headerlink" title="二、Tampermonkey自动执行脚本"></a>二、Tampermonkey自动执行脚本</h1><div class="note info flat"><p>篡改猴(或称油猴，Tampermonkey) 是拥有超过 1000 万用户的最流行的浏览器扩展之一，它允许用户自定义并增强您最喜爱的网页的功能。用户脚本是小型JavaScript程序，可用于向网页添加新功能或修改现有功能。使用篡改猴，您可以轻松在任何网站上创建、管理和运行这些用户脚本。<br>篡改猴分为黑色的Tampermonkey和红色的Tampermonkey BETA，后者为为先行测试的BETA版本，拥有最新的Tampermonkey功能，但是会有未知bug，因此我们选择前者执行脚本。</p></div><h2 id="1-为浏览器安装Tampermonkey"><a href="#1-为浏览器安装Tampermonkey" class="headerlink" title="1.为浏览器安装Tampermonkey"></a>1.为浏览器安装Tampermonkey</h2><p>仍然以chrome浏览器为例，我们可以去脚本的官方网站下载，也可去chrome官方的扩展中心下载。<br><a href="https://www.tampermonkey.net/">点我进入篡改猴官方</a><br><a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?utm_source=ext_app_menu">点我进入chrome商店</a></p><h2 id="2-在Tampermonkey内保存并执行脚本"><a href="#2-在Tampermonkey内保存并执行脚本" class="headerlink" title="2.在Tampermonkey内保存并执行脚本"></a>2.在Tampermonkey内保存并执行脚本</h2><p>进入Tampermonkey的<code>管理面板</code>中，点击已安装脚本左侧的方框加号，将以下代码复制其中，<code>文件</code>——<code>保存</code>即可。<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ==UserScript==</span></span><br><span class="line"><span class="comment">// @name         Steam自动探索队列</span></span><br><span class="line"><span class="comment">// @namespace    https://keylol.com/t157861-1-1</span></span><br><span class="line"><span class="comment">// @version      0.1</span></span><br><span class="line"><span class="comment">// @description  Steam节庆活动用脚本，自动探索3次队列。</span></span><br><span class="line"><span class="comment">// @author       baodongsun</span></span><br><span class="line"><span class="comment">// @match        https://store.steampowered.com/</span></span><br><span class="line"><span class="comment">// @grant        SteamCN</span></span><br><span class="line"><span class="comment">// ==/UserScript==</span></span><br><span class="line"></span><br><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="string">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Your code here...</span></span><br><span class="line">&#125;)();(<span class="keyword">function</span> <span class="title function_">_exec</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="keyword">var</span> appids, </span><br><span class="line">    running = <span class="literal">true</span>, </span><br><span class="line">    queueNumber, </span><br><span class="line">    progressDialog = <span class="title class_">ShowAlertDialog</span>(<span class="string">&#x27;探索中&#x27;</span>, $J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>).<span class="title function_">append</span>($J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>, &#123;<span class="string">&#x27;class&#x27;</span>: <span class="string">&#x27;waiting_dialog_throbber&#x27;</span>&#125;) ).<span class="title function_">append</span>( $J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>, &#123;<span class="string">&#x27;id&#x27;</span>: <span class="string">&#x27;progressContainer&#x27;</span>&#125;).<span class="title function_">text</span>(<span class="string">&#x27;获取进度...&#x27;</span>) ), <span class="string">&#x27;停止&#x27;</span>).<span class="title function_">done</span>(abort);</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">abort</span>(<span class="params"></span>)&#123;</span><br><span class="line">  running = <span class="literal">false</span>;</span><br><span class="line">  progressDialog.<span class="title class_">Dismiss</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">retry</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="title function_">abort</span>();</span><br><span class="line">  <span class="title class_">ShowConfirmDialog</span>(<span class="string">&#x27;错误&#x27;</span>, <span class="string">&#x27;是否重试?&#x27;</span>, <span class="string">&#x27;重试&#x27;</span>, <span class="string">&#x27;放弃&#x27;</span>).<span class="title function_">done</span>(_exec)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">clearApp</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="keyword">if</span>(!running)</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  <span class="title function_">showProgress</span>();</span><br><span class="line">  <span class="keyword">var</span> appid = appids.<span class="title function_">shift</span>();</span><br><span class="line">  !appid ? <span class="title function_">generateQueue</span>() : $J.<span class="title function_">post</span>( appids.<span class="property">length</span> ? <span class="string">&#x27;/app/&#x27;</span> + appid : <span class="string">&#x27;/explore/next/&#x27;</span>, &#123;<span class="attr">sessionid</span>: g_sessionID, <span class="attr">appid_to_clear_from_queue</span>: appid&#125; ).<span class="title function_">done</span>(clearApp).<span class="title function_">fail</span>(retry); </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">generateQueue</span>(<span class="params"></span>)&#123;</span><br><span class="line">  running &amp;&amp; $J.<span class="title function_">post</span>(<span class="string">&#x27;/explore/generatenewdiscoveryqueue&#x27;</span>, &#123;<span class="attr">sessionid</span>: g_sessionID, <span class="attr">queuetype</span>: <span class="number">0</span>&#125;).<span class="title function_">done</span>(beginQueue).<span class="title function_">fail</span>(retry);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">beginQueue</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="keyword">if</span>(!running)</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  $J.<span class="title function_">get</span>(<span class="string">&#x27;/explore/&#x27;</span>).<span class="title function_">done</span>(<span class="keyword">function</span>(<span class="params">htmlText</span>)&#123;</span><br><span class="line">    <span class="keyword">var</span> cardInfo = htmlText.<span class="title function_">match</span>(<span class="regexp">/&lt;div class=&quot;subtext&quot;&gt;\D+(\d)\D+&lt;\/div&gt;/</span>);</span><br><span class="line">    <span class="keyword">if</span>( !cardInfo )&#123;</span><br><span class="line">      <span class="title function_">abort</span>();</span><br><span class="line">      <span class="title class_">ShowAlertDialog</span>(<span class="string">&#x27;完成&#x27;</span>,<span class="string">&#x27;已完成全部3轮探索队列&#x27;</span>);</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> matchedAppids = htmlText.<span class="title function_">match</span>(<span class="regexp">/0,\s+(\[.*\])/</span>);</span><br><span class="line">    <span class="keyword">if</span>( !matchedAppids )&#123;</span><br><span class="line">      <span class="title function_">retry</span>();</span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    appids = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(matchedAppids[<span class="number">1</span>]);</span><br><span class="line">    queueNumber = cardInfo[<span class="number">1</span>];</span><br><span class="line">    appids.<span class="property">length</span> == <span class="number">0</span> ? <span class="title function_">generateQueue</span>() : <span class="title function_">clearApp</span>();</span><br><span class="line">    <span class="title function_">showProgress</span>();</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">showProgress</span>(<span class="params"></span>)&#123;</span><br><span class="line">  $J(<span class="string">&#x27;#progressContainer&#x27;</span>).<span class="title function_">html</span>( <span class="string">&#x27;&lt;br&gt;剩余&#x27;</span> + queueNumber + <span class="string">&#x27;个待探索队列, 当前队列剩余&#x27;</span> + appids.<span class="property">length</span> + <span class="string">&#x27;个待探索游戏&#x27;</span> );</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">beginQueue</span>();</span><br><span class="line">&#125;())</span><br></pre></td></tr></table></figure><br>此时再次进入Steam主页，脚本就会自动进行探索队列。<br>当然我们可以略微修改代码，使脚本每日仅执行一次。<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ==UserScript==</span></span><br><span class="line"><span class="comment">// @name         Steam自动探索队列（每日仅执行一次）</span></span><br><span class="line"><span class="comment">// @namespace    https://keylol.com/t157861-1-1</span></span><br><span class="line"><span class="comment">// @version      0.2</span></span><br><span class="line"><span class="comment">// @description  Steam节庆活动用脚本，自动探索3次队列，仅在每天第一次打开steam网页时执行。</span></span><br><span class="line"><span class="comment">// @author       baodongsun</span></span><br><span class="line"><span class="comment">// @license      MIT</span></span><br><span class="line"><span class="comment">// @match        https://store.steampowered.com/</span></span><br><span class="line"><span class="comment">// @grant        SteamCN</span></span><br><span class="line"><span class="comment">// ==/UserScript==</span></span><br><span class="line"> </span><br><span class="line">(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="string">&#x27;use strict&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">var</span> currentDate = <span class="keyword">new</span> <span class="title class_">Date</span>().<span class="title function_">toLocaleDateString</span>();</span><br><span class="line">    <span class="keyword">var</span> lastExecutionDate = <span class="variable language_">localStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;lastExecutionDate&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">    <span class="comment">// 检查是否已经执行过脚本</span></span><br><span class="line">    <span class="keyword">if</span> (lastExecutionDate !== currentDate) &#123;</span><br><span class="line">        <span class="comment">// 在这里编写你要执行的功能脚本代码</span></span><br><span class="line">        (<span class="keyword">function</span> <span class="title function_">_exec</span>(<span class="params"></span>)&#123;</span><br><span class="line">            <span class="keyword">var</span> appids,</span><br><span class="line">                running = <span class="literal">true</span>,</span><br><span class="line">                queueNumber,</span><br><span class="line">                progressDialog = <span class="title class_">ShowAlertDialog</span>(<span class="string">&#x27;探索中&#x27;</span>, $J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>).<span class="title function_">append</span>($J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>, &#123;<span class="string">&#x27;class&#x27;</span>: <span class="string">&#x27;waiting_dialog_throbber&#x27;</span>&#125;) ).<span class="title function_">append</span>( $J(<span class="string">&#x27;&lt;div/&gt;&#x27;</span>, &#123;<span class="string">&#x27;id&#x27;</span>: <span class="string">&#x27;progressContainer&#x27;</span>&#125;).<span class="title function_">text</span>(<span class="string">&#x27;获取进度...&#x27;</span>) ), <span class="string">&#x27;停止&#x27;</span>).<span class="title function_">done</span>(abort);</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">function</span> <span class="title function_">abort</span>(<span class="params"></span>)&#123;</span><br><span class="line">                running = <span class="literal">false</span>;</span><br><span class="line">                progressDialog.<span class="title class_">Dismiss</span>();</span><br><span class="line">            &#125;</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">function</span> <span class="title function_">retry</span>(<span class="params"></span>)&#123;</span><br><span class="line">                <span class="title function_">abort</span>();</span><br><span class="line">                <span class="title class_">ShowConfirmDialog</span>(<span class="string">&#x27;错误&#x27;</span>, <span class="string">&#x27;是否重试?&#x27;</span>, <span class="string">&#x27;重试&#x27;</span>, <span class="string">&#x27;放弃&#x27;</span>).<span class="title function_">done</span>(_exec)</span><br><span class="line">            &#125;</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">function</span> <span class="title function_">clearApp</span>(<span class="params"></span>)&#123;</span><br><span class="line">                <span class="keyword">if</span>(!running)</span><br><span class="line">                    <span class="keyword">return</span>;</span><br><span class="line">                <span class="title function_">showProgress</span>();</span><br><span class="line">                <span class="keyword">var</span> appid = appids.<span class="title function_">shift</span>();</span><br><span class="line">                !appid ? <span class="title function_">generateQueue</span>() : $J.<span class="title function_">post</span>( appids.<span class="property">length</span> ? <span class="string">&#x27;/app/&#x27;</span> + appid : <span class="string">&#x27;/explore/next/&#x27;</span>, &#123;<span class="attr">sessionid</span>: g_sessionID, <span class="attr">appid_to_clear_from_queue</span>: appid&#125; ).<span class="title function_">done</span>(clearApp).<span class="title function_">fail</span>(retry);</span><br><span class="line">            &#125;</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">function</span> <span class="title function_">generateQueue</span>(<span class="params"></span>)&#123;</span><br><span class="line">                running &amp;&amp; $J.<span class="title function_">post</span>(<span class="string">&#x27;/explore/generatenewdiscoveryqueue&#x27;</span>, &#123;<span class="attr">sessionid</span>: g_sessionID, <span class="attr">queuetype</span>: <span class="number">0</span>&#125;).<span class="title function_">done</span>(beginQueue).<span class="title function_">fail</span>(retry);</span><br><span class="line">            &#125;</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">function</span> <span class="title function_">beginQueue</span>(<span class="params"></span>)&#123;</span><br><span class="line">                <span class="keyword">if</span>(!running)</span><br><span class="line">                    <span class="keyword">return</span>;</span><br><span class="line">                $J.<span class="title function_">get</span>(<span class="string">&#x27;/explore/&#x27;</span>).<span class="title function_">done</span>(<span class="keyword">function</span>(<span class="params">htmlText</span>)&#123;</span><br><span class="line">                    <span class="keyword">var</span> cardInfo = htmlText.<span class="title function_">match</span>(<span class="regexp">/&lt;div class=&quot;subtext&quot;&gt;\D+(\d)\D+&lt;\/div&gt;/</span>);</span><br><span class="line">                    <span class="keyword">if</span>( !cardInfo )&#123;</span><br><span class="line">                        <span class="title function_">abort</span>();</span><br><span class="line">                        <span class="title class_">ShowAlertDialog</span>(<span class="string">&#x27;完成&#x27;</span>,<span class="string">&#x27;已完成全部3轮探索队列&#x27;</span>);</span><br><span class="line">                        <span class="keyword">return</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">var</span> matchedAppids = htmlText.<span class="title function_">match</span>(<span class="regexp">/0,\s+(\[.*\])/</span>);</span><br><span class="line">                    <span class="keyword">if</span>( !matchedAppids )&#123;</span><br><span class="line">                        <span class="title function_">retry</span>();</span><br><span class="line">                        <span class="keyword">return</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    appids = <span class="title class_">JSON</span>.<span class="title function_">parse</span>(matchedAppids[<span class="number">1</span>]);</span><br><span class="line">                    queueNumber = cardInfo[<span class="number">1</span>];</span><br><span class="line">                    appids.<span class="property">length</span> == <span class="number">0</span> ? <span class="title function_">generateQueue</span>() : <span class="title function_">clearApp</span>();</span><br><span class="line">                    <span class="title function_">showProgress</span>();</span><br><span class="line">                &#125;)</span><br><span class="line">            &#125;</span><br><span class="line"> </span><br><span class="line">            <span class="keyword">function</span> <span class="title function_">showProgress</span>(<span class="params"></span>)&#123;</span><br><span class="line">                $J(<span class="string">&#x27;#progressContainer&#x27;</span>).<span class="title function_">html</span>( <span class="string">&#x27;&lt;br&gt;剩余&#x27;</span> + queueNumber + <span class="string">&#x27;个待探索队列, 当前队列剩余&#x27;</span> + appids.<span class="property">length</span> + <span class="string">&#x27;个待探索游戏&#x27;</span> );</span><br><span class="line">            &#125;</span><br><span class="line"> </span><br><span class="line">            <span class="title function_">beginQueue</span>();</span><br><span class="line">        &#125;)();</span><br><span class="line"> </span><br><span class="line">        <span class="comment">// 更新最后执行时间</span></span><br><span class="line">        <span class="variable language_">localStorage</span>.<span class="title function_">setItem</span>(<span class="string">&#x27;lastExecutionDate&#x27;</span>, currentDate);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure></p>]]></content>
     
@@ -35,17 +35,17 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="http://www.blackpumpkin.top/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="steam" scheme="http://www.blackpumpkin.xyz/tags/steam/"/>
+    <category term="steam" scheme="http://www.blackpumpkin.top/tags/steam/"/>
     
   </entry>
   
   <entry>
     <title>简易音声机翻教程</title>
-    <link href="http://www.blackpumpkin.xyz/post/f46969ab.html"/>
-    <id>http://www.blackpumpkin.xyz/post/f46969ab.html</id>
+    <link href="http://www.blackpumpkin.top/post/f46969ab.html"/>
+    <id>http://www.blackpumpkin.top/post/f46969ab.html</id>
     <published>2023-12-15T01:41:15.000Z</published>
     <updated>2023-12-15T04:18:46.749Z</updated>
     
@@ -61,19 +61,19 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="http://www.blackpumpkin.top/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="音声" scheme="http://www.blackpumpkin.xyz/tags/%E9%9F%B3%E5%A3%B0/"/>
+    <category term="音声" scheme="http://www.blackpumpkin.top/tags/%E9%9F%B3%E5%A3%B0/"/>
     
-    <category term="ACG" scheme="http://www.blackpumpkin.xyz/tags/ACG/"/>
+    <category term="ACG" scheme="http://www.blackpumpkin.top/tags/ACG/"/>
     
   </entry>
   
   <entry>
     <title>【ChatGPT】ChatGPT的无服务器部署</title>
-    <link href="http://www.blackpumpkin.xyz/post/5c84e6fe.html"/>
-    <id>http://www.blackpumpkin.xyz/post/5c84e6fe.html</id>
+    <link href="http://www.blackpumpkin.top/post/5c84e6fe.html"/>
+    <id>http://www.blackpumpkin.top/post/5c84e6fe.html</id>
     <published>2023-04-16T07:47:36.000Z</published>
     <updated>2023-04-20T12:56:16.980Z</updated>
     
@@ -87,17 +87,17 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="http://www.blackpumpkin.top/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="chatgpt" scheme="http://www.blackpumpkin.xyz/tags/chatgpt/"/>
+    <category term="chatgpt" scheme="http://www.blackpumpkin.top/tags/chatgpt/"/>
     
   </entry>
   
   <entry>
     <title>【New Bing】New Bing的申请流程分享</title>
-    <link href="http://www.blackpumpkin.xyz/post/d34481fd.html"/>
-    <id>http://www.blackpumpkin.xyz/post/d34481fd.html</id>
+    <link href="http://www.blackpumpkin.top/post/d34481fd.html"/>
+    <id>http://www.blackpumpkin.top/post/d34481fd.html</id>
     <published>2023-02-21T12:16:51.000Z</published>
     <updated>2023-04-16T10:38:34.916Z</updated>
     
@@ -113,17 +113,17 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="http://www.blackpumpkin.top/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="new_bing" scheme="http://www.blackpumpkin.xyz/tags/new-bing/"/>
+    <category term="new_bing" scheme="http://www.blackpumpkin.top/tags/new-bing/"/>
     
   </entry>
   
   <entry>
     <title>【ChatGPT】ChatGPT的注册流程分享</title>
-    <link href="http://www.blackpumpkin.xyz/post/8ee3673d.html"/>
-    <id>http://www.blackpumpkin.xyz/post/8ee3673d.html</id>
+    <link href="http://www.blackpumpkin.top/post/8ee3673d.html"/>
+    <id>http://www.blackpumpkin.top/post/8ee3673d.html</id>
     <published>2023-02-15T02:26:40.000Z</published>
     <updated>2023-04-16T10:52:46.328Z</updated>
     
@@ -134,17 +134,17 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="http://www.blackpumpkin.top/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="chatgpt" scheme="http://www.blackpumpkin.xyz/tags/chatgpt/"/>
+    <category term="chatgpt" scheme="http://www.blackpumpkin.top/tags/chatgpt/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】图床的使用</title>
-    <link href="http://www.blackpumpkin.xyz/post/d6899135.html"/>
-    <id>http://www.blackpumpkin.xyz/post/d6899135.html</id>
+    <link href="http://www.blackpumpkin.top/post/d6899135.html"/>
+    <id>http://www.blackpumpkin.top/post/d6899135.html</id>
     <published>2023-02-11T03:35:13.000Z</published>
     <updated>2023-04-16T10:36:06.329Z</updated>
     
@@ -155,21 +155,21 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="hexo" scheme="http://www.blackpumpkin.top/tags/hexo/"/>
     
-    <category term="hexo" scheme="http://www.blackpumpkin.xyz/tags/hexo/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="github" scheme="http://www.blackpumpkin.xyz/tags/github/"/>
+    <category term="github" scheme="http://www.blackpumpkin.top/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】hexo提交到搜索引擎收录</title>
-    <link href="http://www.blackpumpkin.xyz/post/eb7308cc.html"/>
-    <id>http://www.blackpumpkin.xyz/post/eb7308cc.html</id>
+    <link href="http://www.blackpumpkin.top/post/eb7308cc.html"/>
+    <id>http://www.blackpumpkin.top/post/eb7308cc.html</id>
     <published>2023-02-07T03:16:32.000Z</published>
     <updated>2023-04-16T10:38:01.656Z</updated>
     
@@ -180,25 +180,25 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="hexo" scheme="http://www.blackpumpkin.top/tags/hexo/"/>
     
-    <category term="hexo" scheme="http://www.blackpumpkin.xyz/tags/hexo/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="SEO" scheme="http://www.blackpumpkin.xyz/tags/SEO/"/>
+    <category term="SEO" scheme="http://www.blackpumpkin.top/tags/SEO/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】将hexo部署到托管平台+绑定自定义域名</title>
-    <link href="http://www.blackpumpkin.xyz/post/fa20ec4f.html"/>
-    <id>http://www.blackpumpkin.xyz/post/fa20ec4f.html</id>
+    <link href="http://www.blackpumpkin.top/post/fa20ec4f.html"/>
+    <id>http://www.blackpumpkin.top/post/fa20ec4f.html</id>
     <published>2023-02-07T03:10:22.000Z</published>
-    <updated>2023-04-16T10:35:02.036Z</updated>
+    <updated>2024-01-29T21:13:27.117Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="一、将hexo部署到Vercel"><a href="#一、将hexo部署到Vercel" class="headerlink" title="一、将hexo部署到Vercel"></a>一、将hexo部署到Vercel</h1><div class="note info flat"><p>Vercel是一个代码托管平台，能够用来部署前端应用，此处我们用它来托管hexo的静态html界面，达到无需购买服务器的目的。</p></div><h2 id="1-创建Vercel账号"><a href="#1-创建Vercel账号" class="headerlink" title="1.创建Vercel账号"></a>1.创建Vercel账号</h2><p>官方网站注册即可：<a href="https://vercel.com/">https://vercel.com/</a><br>此处建议直接使用我们的Github账号进行注册/关联，这样我们可以直接在Vercel中找到我们的GitHub库中的项目。</p><h2 id="2-对项目进行托管"><a href="#2-对项目进行托管" class="headerlink" title="2.对项目进行托管"></a>2.对项目进行托管</h2><p>依次点击右上角<code>Add New…</code>——<code>Project</code>，在<code>Import Git Repository</code>内选择我们创建的{username}.github.io项目，点击<code>Import</code>，表示导入我们的Github项目。<br><img src="https://figure.pages.dev/post/post1/1-1.png" width="400"><br>随后，我们在<strong>Project Name</strong>中起一个只有字母、数字或者或者连字符的项目名称，其他的不用变，点击 <code>Deploy</code>。<br><img src="https://figure.pages.dev/post/post1/1-2.png" width="400"><br>我们打开 <code>&#123;ProjectName&#125;.vercel.app</code>(其中{ProjectName}为我们上面项目起的名称)，发现打开后为我们的博客主页，证明我们已经部署成功！（由于目前Vercel被墙，可能需要挂节点进行确认）</p><hr><h1 id="二、绑定自定义域名"><a href="#二、绑定自定义域名" class="headerlink" title="二、绑定自定义域名"></a>二、绑定自定义域名</h1><div class="note info flat"><p>这一步并非必要，如果目前还不想买域名可以先跳过。</p></div><h2 id="1-购买域名"><a href="#1-购买域名" class="headerlink" title="1.购买域名"></a>1.购买域名</h2><p>（略）<br>可先使用<a href="https://www.freenom.com/zh/index.html?lang=zh">freenow</a>申请一个免费域名。</p><h2 id="2-添加解析"><a href="#2-添加解析" class="headerlink" title="2.添加解析"></a>2.添加解析</h2><p>在Vercel中进入我们上文中创建好的项目，点击右上角的 <code>View Domains</code>，我们可以看到已经创建好的 <code>&#123;ProjectName&#125;.vercel.app</code>，我们的目标是将自己购买的域名绑定到这个项目中。<br>在<code>Domains</code>内添加我们购买的域名（以我的域名 <code>blackpumkpin.xyz/</code>为例），然后会提示我们是否重定向至 <code>www.blackpumkpin.xyz/</code>，我们选择 <code>ADD</code>。<br><img src="https://figure.pages.dev/post/post1/1-3.png" width="400"><br>然后我们需要添加以下两条解析记录：</p><div class="table-container"><table><thead><tr><th style="text-align:center">Type</th><th style="text-align:center">Name</th><th style="text-align:center">Value</th></tr></thead><tbody><tr><td style="text-align:center">A</td><td style="text-align:center">@</td><td style="text-align:center">76.76.21.21</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">www</td><td style="text-align:center">cname.vercel-dns.com.</td></tr></tbody></table></div><p>此时我们返回域名商的控制台，进入DNS管理，添加上述两条解析即可。<br>如果我们想要自定义二级域名，我们可以使用CNAME解析，在Name处添加我们想要的自定义二级域名即可。</p><h2 id="3-修改配置文件"><a href="#3-修改配置文件" class="headerlink" title="3.修改配置文件"></a>3.修改配置文件</h2><p>打开_config.yml，在<strong>URL</strong>行修改自己的url为自己的自定义域名。</p><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://www.blackpumpkin.xyz</span></span><br></pre></td></tr></table></figure><hr><h1 id="三、其他托管平台"><a href="#三、其他托管平台" class="headerlink" title="三、其他托管平台"></a>三、其他托管平台</h1><h2 id="1-Netlify"><a href="#1-Netlify" class="headerlink" title="1.Netlify"></a>1.Netlify</h2><p><a href="https://app.netlify.com/">Netlify</a>的速度据说比Vercel快一些。<br>操作步骤与Vercel基本一致，都是通过关联自己的github账户来导入我们的{username}.github.io项目，完成后我们会获得一个形如<code>xxx.netlify.app</code>的链接，打开后为我们的博客主页，证明我们已经部署成功。<br>绑定自定义域名的操作也是相同的，只是解析记录有所区别，随后进入域名商控制台的DNS管理，添加上述解析即可。（自定义二级域名的操作相同，不再赘述）</p><h2 id="2-4EVERLAND"><a href="#2-4EVERLAND" class="headerlink" title="2.4EVERLAND"></a>2.4EVERLAND</h2><p><a href="https://4everland.org/">4EVERLAND</a>是一个集存储、计算、网络核心能力为一体的Web 3.0云计算平台。<br>使用github账户注册，导入hexo博客项目的存储库，选择ipfs，设置完成后点击<code>deploy</code>，完成后我们会获得一个形如<code>xxx.ipfs.4everland.io</code>的链接，打开后为我们的博客主页，证明我们已经部署成功。<br>进入<code>Projects</code>——<code>Settings</code>——<code>Domains</code>，添加自己的域名即可。</p><h2 id="3-RailWay"><a href="#3-RailWay" class="headerlink" title="3.RailWay"></a>3.RailWay</h2><p><a href="https://railway.app/">RailWay</a>部署方式与上述托管平台几乎相同，此处不再赘述。</p><hr><h1 id="拓展阅读：将二级域名部署到不同的托管平台"><a href="#拓展阅读：将二级域名部署到不同的托管平台" class="headerlink" title="拓展阅读：将二级域名部署到不同的托管平台"></a>拓展阅读：将二级域名部署到不同的托管平台</h1><p>如果我们已经使用Vercel将主域名进行了部署，那么我们也可以使用其他的平台对二级域名进行部署。</p><div class="table-container"><table><thead><tr><th style="text-align:center">Type</th><th style="text-align:center">Name</th><th style="text-align:center">Value</th><th style="text-align:center">备注</th></tr></thead><tbody><tr><td style="text-align:center">A</td><td style="text-align:center">@</td><td style="text-align:center">76.76.21.21</td><td style="text-align:center">Vercel部署的主域名A解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">www</td><td style="text-align:center">cname.vercel-dns.com.</td><td style="text-align:center">Vercel部署的主域名CNAME解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">{netlify}</td><td style="text-align:center">{xxx}.netlify.app</td><td style="text-align:center">Netlify部署的二级域名CNAME解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">{4everland}</td><td style="text-align:center">{xxx}.cname.ddnsweb3.com</td><td style="text-align:center">Netlify部署的二级域名CNAME解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">{railway}</td><td style="text-align:center">{xxx}.railway.app</td><td style="text-align:center">RailWay部署的二级域名CNAME解析</td></tr></tbody></table></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="一、将hexo部署到Vercel"><a href="#一、将hexo部署到Vercel" class="headerlink" title="一、将hexo部署到Vercel"></a>一、将hexo部署到Vercel</h1><div class="note info flat"><p>Vercel是一个代码托管平台，能够用来部署前端应用，此处我们用它来托管hexo的静态html界面，达到无需购买服务器的目的。</p></div><h2 id="1-创建Vercel账号"><a href="#1-创建Vercel账号" class="headerlink" title="1.创建Vercel账号"></a>1.创建Vercel账号</h2><p>官方网站注册即可：<a href="https://vercel.com/">https://vercel.com/</a><br>此处建议直接使用我们的Github账号进行注册/关联，这样我们可以直接在Vercel中找到我们的GitHub库中的项目。</p><h2 id="2-对项目进行托管"><a href="#2-对项目进行托管" class="headerlink" title="2.对项目进行托管"></a>2.对项目进行托管</h2><p>依次点击右上角<code>Add New…</code>——<code>Project</code>，在<code>Import Git Repository</code>内选择我们创建的{username}.github.io项目，点击<code>Import</code>，表示导入我们的Github项目。<br><img src="https://figure.pages.dev/post/post1/1-1.png" width="400"><br>随后，我们在<strong>Project Name</strong>中起一个只有字母、数字或者或者连字符的项目名称，其他的不用变，点击 <code>Deploy</code>。<br><img src="https://figure.pages.dev/post/post1/1-2.png" width="400"><br>我们打开 <code>&#123;ProjectName&#125;.vercel.app</code>(其中{ProjectName}为我们上面项目起的名称)，发现打开后为我们的博客主页，证明我们已经部署成功！（由于目前Vercel被墙，可能需要挂节点进行确认）</p><hr><h1 id="二、绑定自定义域名"><a href="#二、绑定自定义域名" class="headerlink" title="二、绑定自定义域名"></a>二、绑定自定义域名</h1><div class="note info flat"><p>这一步并非必要，如果目前还不想买域名可以先跳过。</p></div><h2 id="1-购买域名"><a href="#1-购买域名" class="headerlink" title="1.购买域名"></a>1.购买域名</h2><p>（略）<br>可先使用<a href="https://www.freenom.com/zh/index.html?lang=zh">freenom</a>申请一个免费域名。</p><h2 id="2-添加解析"><a href="#2-添加解析" class="headerlink" title="2.添加解析"></a>2.添加解析</h2><p>在Vercel中进入我们上文中创建好的项目，点击右上角的 <code>View Domains</code>，我们可以看到已经创建好的 <code>&#123;ProjectName&#125;.vercel.app</code>，我们的目标是将自己购买的域名绑定到这个项目中。<br>在<code>Domains</code>内添加我们购买的域名（以我的域名 <code>blackpumkpin.xyz/</code>为例），然后会提示我们是否重定向至 <code>www.blackpumkpin.xyz/</code>，我们选择 <code>ADD</code>。<br><img src="https://figure.pages.dev/post/post1/1-3.png" width="400"><br>然后我们需要添加以下两条解析记录：</p><div class="table-container"><table><thead><tr><th style="text-align:center">Type</th><th style="text-align:center">Name</th><th style="text-align:center">Value</th></tr></thead><tbody><tr><td style="text-align:center">A</td><td style="text-align:center">@</td><td style="text-align:center">76.76.21.21</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">www</td><td style="text-align:center">cname.vercel-dns.com.</td></tr></tbody></table></div><p>此时我们返回域名商的控制台，进入DNS管理，添加上述两条解析即可。<br>如果我们想要自定义二级域名，我们可以使用CNAME解析，在Name处添加我们想要的自定义二级域名即可。</p><h2 id="3-修改配置文件"><a href="#3-修改配置文件" class="headerlink" title="3.修改配置文件"></a>3.修改配置文件</h2><p>打开_config.yml，在<strong>URL</strong>行修改自己的url为自己的自定义域名。</p><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## Set your site url here. For example, if you use GitHub Page, set url as &#x27;https://username.github.io/project&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">http://www.blackpumpkin.xyz</span></span><br></pre></td></tr></table></figure><hr><h1 id="三、其他托管平台"><a href="#三、其他托管平台" class="headerlink" title="三、其他托管平台"></a>三、其他托管平台</h1><h2 id="1-Netlify"><a href="#1-Netlify" class="headerlink" title="1.Netlify"></a>1.Netlify</h2><p><a href="https://app.netlify.com/">Netlify</a>的速度据说比Vercel快一些。<br>操作步骤与Vercel基本一致，都是通过关联自己的github账户来导入我们的{username}.github.io项目，完成后我们会获得一个形如<code>xxx.netlify.app</code>的链接，打开后为我们的博客主页，证明我们已经部署成功。<br>绑定自定义域名的操作也是相同的，只是解析记录有所区别，随后进入域名商控制台的DNS管理，添加上述解析即可。（自定义二级域名的操作相同，不再赘述）</p><h2 id="2-4EVERLAND"><a href="#2-4EVERLAND" class="headerlink" title="2.4EVERLAND"></a>2.4EVERLAND</h2><p><a href="https://4everland.org/">4EVERLAND</a>是一个集存储、计算、网络核心能力为一体的Web 3.0云计算平台。<br>使用github账户注册，导入hexo博客项目的存储库，选择ipfs，设置完成后点击<code>deploy</code>，完成后我们会获得一个形如<code>xxx.ipfs.4everland.io</code>的链接，打开后为我们的博客主页，证明我们已经部署成功。<br>进入<code>Projects</code>——<code>Settings</code>——<code>Domains</code>，添加自己的域名即可。</p><h2 id="3-RailWay"><a href="#3-RailWay" class="headerlink" title="3.RailWay"></a>3.RailWay</h2><p><a href="https://railway.app/">RailWay</a>部署方式与上述托管平台几乎相同，此处不再赘述。</p><hr><h1 id="拓展阅读：将二级域名部署到不同的托管平台"><a href="#拓展阅读：将二级域名部署到不同的托管平台" class="headerlink" title="拓展阅读：将二级域名部署到不同的托管平台"></a>拓展阅读：将二级域名部署到不同的托管平台</h1><p>如果我们已经使用Vercel将主域名进行了部署，那么我们也可以使用其他的平台对二级域名进行部署。</p><div class="table-container"><table><thead><tr><th style="text-align:center">Type</th><th style="text-align:center">Name</th><th style="text-align:center">Value</th><th style="text-align:center">备注</th></tr></thead><tbody><tr><td style="text-align:center">A</td><td style="text-align:center">@</td><td style="text-align:center">76.76.21.21</td><td style="text-align:center">Vercel部署的主域名A解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">www</td><td style="text-align:center">cname.vercel-dns.com.</td><td style="text-align:center">Vercel部署的主域名CNAME解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">{netlify}</td><td style="text-align:center">{xxx}.netlify.app</td><td style="text-align:center">Netlify部署的二级域名CNAME解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">{4everland}</td><td style="text-align:center">{xxx}.cname.ddnsweb3.com</td><td style="text-align:center">Netlify部署的二级域名CNAME解析</td></tr><tr><td style="text-align:center">CNAME</td><td style="text-align:center">{railway}</td><td style="text-align:center">{xxx}.railway.app</td><td style="text-align:center">RailWay部署的二级域名CNAME解析</td></tr></tbody></table></div>]]></content>
     
     
       
@@ -208,23 +208,23 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="hexo" scheme="http://www.blackpumpkin.top/tags/hexo/"/>
     
-    <category term="hexo" scheme="http://www.blackpumpkin.xyz/tags/hexo/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="Vercel" scheme="http://www.blackpumpkin.xyz/tags/Vercel/"/>
+    <category term="Vercel" scheme="http://www.blackpumpkin.top/tags/Vercel/"/>
     
-    <category term="自定义域名" scheme="http://www.blackpumpkin.xyz/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/"/>
+    <category term="自定义域名" scheme="http://www.blackpumpkin.top/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
   <entry>
     <title>分享一种可以给外服手游氪金的卡种——美国运通借记卡</title>
-    <link href="http://www.blackpumpkin.xyz/post/6c05f09f.html"/>
-    <id>http://www.blackpumpkin.xyz/post/6c05f09f.html</id>
+    <link href="http://www.blackpumpkin.top/post/6c05f09f.html"/>
+    <id>http://www.blackpumpkin.top/post/6c05f09f.html</id>
     <published>2023-02-03T14:06:41.000Z</published>
     <updated>2023-02-25T20:19:30.745Z</updated>
     
@@ -235,19 +235,19 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.xyz/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="http://www.blackpumpkin.top/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="信用卡申请" scheme="http://www.blackpumpkin.xyz/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%B3%E8%AF%B7/"/>
+    <category term="信用卡申请" scheme="http://www.blackpumpkin.top/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%B3%E8%AF%B7/"/>
     
-    <category term="游戏氪金" scheme="http://www.blackpumpkin.xyz/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/"/>
+    <category term="游戏氪金" scheme="http://www.blackpumpkin.top/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】markdown书写规范速查</title>
-    <link href="http://www.blackpumpkin.xyz/post/13950859.html"/>
-    <id>http://www.blackpumpkin.xyz/post/13950859.html</id>
+    <link href="http://www.blackpumpkin.top/post/13950859.html"/>
+    <id>http://www.blackpumpkin.top/post/13950859.html</id>
     <published>2023-01-02T15:08:36.000Z</published>
     <updated>2023-02-27T02:40:17.518Z</updated>
     
@@ -258,21 +258,21 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="markdown" scheme="http://www.blackpumpkin.xyz/tags/markdown/"/>
+    <category term="hexo" scheme="http://www.blackpumpkin.top/tags/hexo/"/>
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="hexo" scheme="http://www.blackpumpkin.xyz/tags/hexo/"/>
+    <category term="markdown" scheme="http://www.blackpumpkin.top/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】分享一下用hexo+github创建博客的过程</title>
-    <link href="http://www.blackpumpkin.xyz/post/86516c22.html"/>
-    <id>http://www.blackpumpkin.xyz/post/86516c22.html</id>
+    <link href="http://www.blackpumpkin.top/post/86516c22.html"/>
+    <id>http://www.blackpumpkin.top/post/86516c22.html</id>
     <published>2022-12-22T06:59:34.000Z</published>
     <updated>2023-09-30T04:54:43.680Z</updated>
     
@@ -286,14 +286,14 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.xyz/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="hexo" scheme="http://www.blackpumpkin.top/tags/hexo/"/>
     
-    <category term="hexo" scheme="http://www.blackpumpkin.xyz/tags/hexo/"/>
+    <category term="博客技巧" scheme="http://www.blackpumpkin.top/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="github" scheme="http://www.blackpumpkin.xyz/tags/github/"/>
+    <category term="github" scheme="http://www.blackpumpkin.top/tags/github/"/>
     
   </entry>
   
