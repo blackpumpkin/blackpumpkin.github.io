@@ -1,0 +1,37 @@
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* 滚动条的滚动区域（轨道） */
+::-webkit-scrollbar-track {
+  background-color: rgb(221,160,221,0.8);
+  border-radius: 2em;
+}
+
+/* 滚动条的可拖拽部分（滑块） */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0,255,255,0.4);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(152,251,152,0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255,215,0,0.4) 50%,
+    rgba(255,0,0,0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+/* 垂直滚动条和水平滚动条交汇的部分 */
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: var(--theme-color);
+}
