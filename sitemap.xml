@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.blackpumpkin.site/post/86516c22.html</loc>
+    
+    <lastmod>2024-02-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.blackpumpkin.site/support/index.html</loc>
     
     <lastmod>2024-02-01</lastmod>
@@ -68,15 +77,6 @@
     <loc>http://www.blackpumpkin.site/gallery/cover/index.html</loc>
     
     <lastmod>2023-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.site/post/86516c22.html</loc>
-    
-    <lastmod>2023-09-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -378,20 +378,6 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.site/tags/%E9%9F%B3%E5%A3%B0/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.site/tags/ACG/</loc>
-    <lastmod>2024-02-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.blackpumpkin.site/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%B3%E8%AF%B7/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -400,6 +386,20 @@
   
   <url>
     <loc>http://www.blackpumpkin.site/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.site/tags/%E9%9F%B3%E5%A3%B0/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.site/tags/ACG/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
