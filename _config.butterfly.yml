@@ -525,7 +525,9 @@ google_adsense:
 
 site_verification:
   - name: baidu-site-verification
-    content: codeva-BhT1gimP3D
+    content: codeva-ILsTdAdDQx
+  - name: google-site-verification
+    content: 8zJ14bh5QhFPZPL1NWG4LpNIKztE8WP3pL69Agx12as
   - name: sogou_site_verification
     content: 1XaswQITbH
   - name: 360-site-verification

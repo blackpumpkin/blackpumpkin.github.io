@@ -176,3 +176,32 @@ deploy:
 
 打开自己的博客地址 `{username}.github.io`，大功告成！
 
+# 2024/2/1更新 使用hexo-git-backup备份博客文件
+
+## 1.安装插件
+`$ npm install hexo-git-backup --save`
+
+## 2.插件配置
+在博客根目录下的**_config.yml**文件中添加以下内容：
+```
+backup:
+    type: git
+    theme: butterfly
+    message: Back up my www.blackpumpkin.site blog
+    repository:
+      # github: git@github.com:xxx/xxx.git,branchName
+```
+参数解释：
+theme：需要备份的主题名称
+message：自定义提交信息
+repository：仓库名，注意仓库地址后面要添加一个分支名，格式为**托管平台: 仓库地址,分支名**
+
+## 3.提交、备份
+`hexo backup`
+
+一键四连：
+
+`hexo clean && hexo g && hexo d && hexo b`
+
+## 4.如何恢复博客
+下载或者 clone 前文所述备份的博客到本地任意位置，复制备份文件夹内所有文件到新安装的博客目录下，重复文件保留备份的即可。
