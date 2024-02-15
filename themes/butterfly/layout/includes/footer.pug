@@ -1,4 +1,6 @@
+
 #footer-wrap
+  //- 以下内容为主页脚部分，分为两栏内容
   #ft
     .ft-item-1
       .t-top
@@ -6,8 +8,8 @@
           p.ft-t.t-l-t 格言🧬
           .bg-ad
             div
-              | 对己清正，弃私为公。<br>对人公正，不偏为直。<br>对内严格，勤于精业。<br>对外平等，己任天下。
-            .btn-xz-box
+              | 对己清正，弃私为公。对人公正，不偏为直。<br>对内严格，勤于精业。对外平等，己任天下。
+            //.btn-xz-box
               a.btn-xz(href='https://www.blackpumpkin.site/about/') 关于本人
         .t-t-r
           p.ft-t.t-l-t 猜你想看💡
@@ -15,31 +17,26 @@
             li
               a(href='/categories/') 文章分类
               a(href='/tags/') 文章标签
-            li
+            li  
               a(href='/gallery/') 我的画廊
               a(href='/archives/') 文章时间轴
             li
               a(href='/music/') 我的音乐
               a(href='/video/') 我的视频
-            li
-              a(href='/link/') 友链
+            li  
+              a(href='/link/') 我的友链
               a(href='/comments/') 留言板
+
+    //- 以下内容暂时注释掉，测试三栏变两栏，恢复把下面一行的两个斜杠去掉
     .ft-item-2
-      p.ft-t 向大佬们学习中📖
+      p.ft-t 最新实验成果🧪
       .ft-img-group
         .img-group-item
-          a(href='https://www.fomal.cc/' title='Fomalhaut🥝')
-            img(src='https://sourcebucket.s3.bitiful.net/img/avatar.webp' alt='')
-        .img-group-item
-          a(href='https://tzy1997.com/' title='唐志远の博客')
-            img(src='https://profile-avatar.csdnimg.cn/d727165265e34093bb6f61f0f663da8c_qq_41356250.jpg' alt='')
-        .img-group-item
-          a(href='https://anzhiy.cn/' title='安知鱼')
-            img(src='https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg' alt='')
-        .img-group-item
-          a(href='javascript:void(0)' title='广告位招租')
-            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp' alt='')
+          a(href='https://music-player.blackpumpkin.site/#/music/playlist' title='新版音乐厅')
+            img(src='https://img0.baidu.com/it/u=655077751,2306344017&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500' alt='')
 
+
+  //- 以下内容为主题指定的信息版权信息
   if theme.footer.owner.enable
     - var now = new Date()
     - var nowYear = now.getFullYear()
@@ -60,7 +57,8 @@
       a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`
-    
+
+  //- 以下内容为底部徽标显示  
   #workboard
   
   p#ghbdages
@@ -101,5 +99,3 @@
     a.github-badge(target='_blank' href="https://icp.gov.moe/?keyword=20234320" style='margin-inline:5px' title="本站已加入萌ICP备案")
       img(src="https://figure.pages.dev/icon/萌ICP备-20234320-ff1384.svg" alt='')
     
-      
-
