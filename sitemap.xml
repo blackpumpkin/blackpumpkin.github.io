@@ -317,6 +317,13 @@
 
   
   <url>
+    <loc>http://www.blackpumpkin.site/tags/chatgpt/</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.blackpumpkin.site/tags/steam/</loc>
     <lastmod>2024-02-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -325,13 +332,6 @@
   
   <url>
     <loc>http://www.blackpumpkin.site/tags/new-bing/</loc>
-    <lastmod>2024-02-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.blackpumpkin.site/tags/chatgpt/</loc>
     <lastmod>2024-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
