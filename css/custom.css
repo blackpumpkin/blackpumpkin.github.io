@@ -7,7 +7,7 @@
     background: transparent !important;
   }
   
-  /* 白天模式遮罩透明 */
+  /* 白天模式遮罩透明(此处需注释掉，否则页头没有遮罩效果) */
   /*#footer::before {
     background: transparent !important;
   }
@@ -105,3 +105,14 @@ div#archive {
   color: #ffffff;
 }
 /* 页面样式调节结束 */
+
+
+/* 页脚遮罩开始 */
+#footer-wrap a {
+  border-radius: 30px;
+}
+#footer-wrap {
+  padding: 20px 20px;
+  background-color: #12121288 !important;
+/* 页脚遮罩结束 */
+
