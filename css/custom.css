@@ -107,13 +107,3 @@ div#archive {
 /* 页面样式调节结束 */
 
 
-/* 页脚遮罩开始 */
-#footer-wrap a {
-  border-radius: 30px;
-}
-#footer-wrap {
-  padding: 20px 20px;
-  background-color: #12121288 !important;
-}
-/* 页脚遮罩结束 */
-
