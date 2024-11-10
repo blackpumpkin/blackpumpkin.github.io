@@ -8,7 +8,7 @@
   }
   
   /* 白天模式遮罩透明(此处需注释掉，否则页头没有遮罩效果) */
-  /*#footer::before {
+  #footer::before {
     background: transparent !important;
   }
   #page-header::before {
