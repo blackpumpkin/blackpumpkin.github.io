@@ -87,7 +87,25 @@
 
       const theme = saveToLocal.get('theme')
     
-          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+          
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
         
       
       const asideStatus = saveToLocal.get('aside-status')
@@ -109,7 +127,7 @@
   algolia: undefined,
   localSearch: undefined,
   translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":true,"highlightMacStyle":false},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":30,"highlightFullpage":false,"highlightMacStyle":false},
   copy: {
     success: '复制成功',
     error: '复制失败',
@@ -129,19 +147,19 @@
   },
   copyright: undefined,
   lightbox: 'null',
-  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#EE82EE","bgDark":"#1f1f1f","position":"bottom-center"},
   infinitegrid: {
     js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
     buttonText: '加载更多'
   },
   isPhotoFigcaption: false,
   islazyload: false,
-  isAnchor: false,
+  isAnchor: true,
   percent: {
     toc: true,
     rightside: true,
   },
-  autoDarkmode: false
+  autoDarkmode: true
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: '【开箱】Amakuni 舰队Collection -舰娘- 西南风 开箱记录',
   isPost: true,
