@@ -1359,7 +1359,7 @@ canvas:not(#ribbon-canvas),
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
   --pseudo-hover: #ff7242;
   --headline-presudo: #a0a0a0;
-  --scrollbar-color: #ee82ee;
+  --scrollbar-color: #49b1f5;
   --default-bg-color: #49b1f5;
   --zoom-bg: #fff;
   --mark-bg: rgba(0,0,0,0.3);
@@ -2362,9 +2362,6 @@ figure.highlight pre .javascript .function {
 }
 #recent-posts .recent-post-item >.recent-post-info > .article-meta-wrap .article-meta-link {
   margin: 0 4px;
-}
-#recent-posts .recent-post-item >.recent-post-info > .article-meta-wrap time {
-  display: none;
 }
 #recent-posts .recent-post-item >.recent-post-info > .article-meta-wrap a {
   color: var(--card-meta);
@@ -3612,9 +3609,6 @@ figure.highlight pre .javascript .function {
   color: #49b1f5;
   text-decoration: underline;
 }
-#post-info #post-meta time {
-  display: none;
-}
 #nav {
   position: absolute;
   top: 0;
@@ -3918,7 +3912,6 @@ figure.highlight pre .javascript .function {
 .container {
   word-wrap: break-word;
   overflow-wrap: break-word;
-  text-align: justify;
 }
 .container a {
   color: #49b1f5;
@@ -4286,21 +4279,6 @@ figure.highlight pre .javascript .function {
   #rightside #hide-aside-btn {
     display: none;
   }
-}
-#rightside #go-up .scroll-percent {
-  display: none;
-}
-#rightside #go-up.show-percent .scroll-percent {
-  display: block;
-}
-#rightside #go-up.show-percent .scroll-percent + i {
-  display: none;
-}
-#rightside #go-up:hover .scroll-percent {
-  display: none;
-}
-#rightside #go-up:hover .scroll-percent + i {
-  display: block;
 }
 #sidebar #menu-mask {
   position: fixed;
