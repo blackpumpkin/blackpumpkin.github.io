@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>黑心の南瓜🎃</title>
+  <icon>http://www.blackpumpkin.site/icon.png</icon>
+  <subtitle>Blackpumpkin</subtitle>
+  <link href="http://www.blackpumpkin.site/atom.xml" rel="self"/>
+  
+  <link href="http://www.blackpumpkin.site/"/>
+  <updated>2024-11-20T09:29:11.700Z</updated>
+  <id>http://www.blackpumpkin.site/</id>
+  
+  <author>
+    <name>黑心の南瓜🎃</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【多图预警】【开箱】Amakuni 舰队Collection -舰娘- 西南风 开箱</title>
+    <link href="http://www.blackpumpkin.site/post/d9ae2451.html"/>
+    <id>http://www.blackpumpkin.site/post/d9ae2451.html</id>
+    <published>2024-11-15T18:49:25.000Z</published>
+    <updated>2024-11-20T09:29:11.700Z</updated>
+    
+    
+    <summary type="html">心心念念的西南风手办终于到了，拿出来分享一下。</summary>
+    
+    
+    
+    <category term="生活记录" scheme="http://www.blackpumpkin.site/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="记录" scheme="http://www.blackpumpkin.site/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="日淘" scheme="http://www.blackpumpkin.site/tags/%E6%97%A5%E6%B7%98/"/>
+    
+    <category term="手办" scheme="http://www.blackpumpkin.site/tags/%E6%89%8B%E5%8A%9E/"/>
+    
+    <category term="开箱" scheme="http://www.blackpumpkin.site/tags/%E5%BC%80%E7%AE%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试一下chatgpt4.0o的一些解答+hexo的MathJax功能</title>
+    <link href="http://www.blackpumpkin.site/post/6649861e.html"/>
+    <id>http://www.blackpumpkin.site/post/6649861e.html</id>
+    <published>2024-11-10T15:32:23.000Z</published>
+    <updated>2024-11-23T04:28:34.476Z</updated>
+    
+    
+    <summary type="html">用一些题目看看MathJax功能的体现。</summary>
+    
+    
+    
+    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    
+    <category term="chatgpt" scheme="http://www.blackpumpkin.site/tags/chatgpt/"/>
+    
+    <category term="MathJax" scheme="http://www.blackpumpkin.site/tags/MathJax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小记自己第一次日本海淘的流程</title>
+    <link href="http://www.blackpumpkin.site/post/e70c1929.html"/>
+    <id>http://www.blackpumpkin.site/post/e70c1929.html</id>
+    <published>2024-11-05T04:41:10.000Z</published>
+    <updated>2024-11-08T18:53:26.891Z</updated>
+    
+    
+    <summary type="html">小记自己第一次日淘的流程。</summary>
+    
+    
+    
+    <category term="生活记录" scheme="http://www.blackpumpkin.site/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="记录" scheme="http://www.blackpumpkin.site/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="日淘" scheme="http://www.blackpumpkin.site/tags/%E6%97%A5%E6%B7%98/"/>
+    
+    <category term="转运" scheme="http://www.blackpumpkin.site/tags/%E8%BD%AC%E8%BF%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【hexo】博客大更新</title>
+    <link href="http://www.blackpumpkin.site/post/dcca86bd.html"/>
+    <id>http://www.blackpumpkin.site/post/dcca86bd.html</id>
+    <published>2024-08-17T18:02:13.000Z</published>
+    <updated>2024-11-23T12:57:40.915Z</updated>
+    
+    
+    <summary type="html">旧博客运行太慢，重新进行部署</summary>
+    
+    
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记录给家里老电脑重装系统的过程</title>
+    <link href="http://www.blackpumpkin.site/post/5e348149.html"/>
+    <id>http://www.blackpumpkin.site/post/5e348149.html</id>
+    <published>2024-02-15T13:22:41.000Z</published>
+    <updated>2024-08-21T15:07:47.872Z</updated>
+    
+    
+    <summary type="html">其实主要是给老爹装个红警玩玩</summary>
+    
+    
+    
+    <category term="重装系统" scheme="http://www.blackpumpkin.site/categories/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="系统，重装，windows，软件" scheme="http://www.blackpumpkin.site/tags/%E7%B3%BB%E7%BB%9F%EF%BC%8C%E9%87%8D%E8%A3%85%EF%BC%8Cwindows%EF%BC%8C%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简易音声机翻教程</title>
+    <link href="http://www.blackpumpkin.site/post/f46969ab.html"/>
+    <id>http://www.blackpumpkin.site/post/f46969ab.html</id>
+    <published>2023-12-15T01:41:15.000Z</published>
+    <updated>2024-11-09T06:03:21.038Z</updated>
+    
+    
+    <summary type="html">有时从网上下载的音声没有翻译，我们可以用此方法解决燃眉之急。</summary>
+    
+    
+    
+    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="音声" scheme="http://www.blackpumpkin.site/tags/%E9%9F%B3%E5%A3%B0/"/>
+    
+    <category term="ACG" scheme="http://www.blackpumpkin.site/tags/ACG/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【ChatGPT】ChatGPT的无服务器部署</title>
+    <link href="http://www.blackpumpkin.site/post/5c84e6fe.html"/>
+    <id>http://www.blackpumpkin.site/post/5c84e6fe.html</id>
+    <published>2023-04-16T07:47:36.000Z</published>
+    <updated>2024-11-09T06:03:11.470Z</updated>
+    
+    
+    <summary type="html">每次登上gpt的官网还是挺繁琐的，不如做一个专属于自己的小程序。</summary>
+    
+    
+    
+    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="chatgpt" scheme="http://www.blackpumpkin.site/tags/chatgpt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【New Bing】New Bing的申请流程分享</title>
+    <link href="http://www.blackpumpkin.site/post/d34481fd.html"/>
+    <id>http://www.blackpumpkin.site/post/d34481fd.html</id>
+    <published>2023-02-21T12:16:51.000Z</published>
+    <updated>2024-08-21T15:07:07.677Z</updated>
+    
+    
+    <summary type="html">试一下微软家的chatgpt如何</summary>
+    
+    
+    
+    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="new_bing" scheme="http://www.blackpumpkin.site/tags/new-bing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【ChatGPT】ChatGPT的注册流程分享</title>
+    <link href="http://www.blackpumpkin.site/post/8ee3673d.html"/>
+    <id>http://www.blackpumpkin.site/post/8ee3673d.html</id>
+    <published>2023-02-15T02:26:40.000Z</published>
+    <updated>2024-08-21T15:06:57.820Z</updated>
+    
+    
+    <summary type="html">分享一下ChatGPT的注册流程。</summary>
+    
+    
+    
+    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="chatgpt" scheme="http://www.blackpumpkin.site/tags/chatgpt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【hexo】图床的使用</title>
+    <link href="http://www.blackpumpkin.site/post/d6899135.html"/>
+    <id>http://www.blackpumpkin.site/post/d6899135.html</id>
+    <published>2023-02-11T03:35:13.000Z</published>
+    <updated>2024-08-21T15:39:33.953Z</updated>
+    
+    
+    <summary type="html">使用图床可以给服务器减轻压力，对于网站的访问也会提高一定的速度。</summary>
+    
+    
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="github" scheme="http://www.blackpumpkin.site/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【hexo】hexo提交到搜索引擎收录</title>
+    <link href="http://www.blackpumpkin.site/post/eb7308cc.html"/>
+    <id>http://www.blackpumpkin.site/post/eb7308cc.html</id>
+    <published>2023-02-07T03:16:32.000Z</published>
+    <updated>2024-08-21T16:22:45.151Z</updated>
+    
+    
+    <summary type="html">将hexo提交到搜索引擎收录</summary>
+    
+    
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="SEO" scheme="http://www.blackpumpkin.site/tags/SEO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【hexo】将hexo部署到托管平台+绑定自定义域名</title>
+    <link href="http://www.blackpumpkin.site/post/fa20ec4f.html"/>
+    <id>http://www.blackpumpkin.site/post/fa20ec4f.html</id>
+    <published>2023-02-07T03:10:22.000Z</published>
+    <updated>2024-11-09T06:02:43.650Z</updated>
+    
+    
+    <summary type="html">部署到托管平台、绑定自己购买的域名</summary>
+    
+    
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="Vercel" scheme="http://www.blackpumpkin.site/tags/Vercel/"/>
+    
+    <category term="自定义域名" scheme="http://www.blackpumpkin.site/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分享一种可以给外服手游氪金的卡种——美国运通借记卡</title>
+    <link href="http://www.blackpumpkin.site/post/6c05f09f.html"/>
+    <id>http://www.blackpumpkin.site/post/6c05f09f.html</id>
+    <published>2023-02-03T14:06:41.000Z</published>
+    <updated>2024-08-21T15:06:11.878Z</updated>
+    
+    
+    <summary type="html">为了给碧蓝档案氪金，写下了办卡的全流程</summary>
+    
+    
+    
+    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="储蓄卡申请" scheme="http://www.blackpumpkin.site/tags/%E5%82%A8%E8%93%84%E5%8D%A1%E7%94%B3%E8%AF%B7/"/>
+    
+    <category term="游戏氪金" scheme="http://www.blackpumpkin.site/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【hexo】markdown书写规范速查</title>
+    <link href="http://www.blackpumpkin.site/post/13950859.html"/>
+    <id>http://www.blackpumpkin.site/post/13950859.html</id>
+    <published>2023-01-02T15:08:36.000Z</published>
+    <updated>2024-08-21T15:05:58.117Z</updated>
+    
+    
+    <summary type="html">一些markdawn的书写规范</summary>
+    
+    
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="markdown" scheme="http://www.blackpumpkin.site/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【hexo】分享一下用hexo+github创建博客的过程</title>
+    <link href="http://www.blackpumpkin.site/post/86516c22.html"/>
+    <id>http://www.blackpumpkin.site/post/86516c22.html</id>
+    <published>2022-12-22T06:59:34.000Z</published>
+    <updated>2024-08-21T18:09:10.278Z</updated>
+    
+    
+    <summary type="html">记录自己第一次创建博客的过程</summary>
+    
+    
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    
+    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="github" scheme="http://www.blackpumpkin.site/tags/github/"/>
+    
+  </entry>
+  
+</feed>
