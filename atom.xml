@@ -6,7 +6,7 @@
   <link href="http://www.blackpumpkin.site/atom.xml" rel="self"/>
   
   <link href="http://www.blackpumpkin.site/"/>
-  <updated>2024-12-12T09:46:14.088Z</updated>
+  <updated>2024-12-13T08:51:03.694Z</updated>
   <id>http://www.blackpumpkin.site/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.blackpumpkin.site/post/ec0943a3.html"/>
     <id>http://www.blackpumpkin.site/post/ec0943a3.html</id>
     <published>2024-12-11T16:07:11.000Z</published>
-    <updated>2024-12-12T09:46:14.088Z</updated>
+    <updated>2024-12-13T08:51:03.694Z</updated>
     
     
     <summary type="html">记录一下目前使用的vscode插件</summary>
@@ -111,7 +111,7 @@
     <link href="http://www.blackpumpkin.site/post/dcca86bd.html"/>
     <id>http://www.blackpumpkin.site/post/dcca86bd.html</id>
     <published>2024-08-17T18:02:13.000Z</published>
-    <updated>2024-11-27T10:12:30.431Z</updated>
+    <updated>2024-12-13T05:49:36.547Z</updated>
     
     
     <summary type="html">旧博客运行太慢，重新进行部署。也在这里做个记录，一旦出现问题就回来看看方便回滚。</summary>
@@ -121,9 +121,9 @@
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
-    
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
     
   </entry>
   
@@ -210,7 +210,7 @@
     <link href="http://www.blackpumpkin.site/post/8ee3673d.html"/>
     <id>http://www.blackpumpkin.site/post/8ee3673d.html</id>
     <published>2023-02-15T02:26:40.000Z</published>
-    <updated>2024-08-21T15:06:57.820Z</updated>
+    <updated>2024-12-12T16:46:28.465Z</updated>
     
     
     <summary type="html">分享一下ChatGPT的注册流程。</summary>
@@ -239,9 +239,9 @@
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
-    
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
     
     <category term="github" scheme="http://www.blackpumpkin.site/tags/github/"/>
     
@@ -262,9 +262,9 @@
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
-    
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
     
     <category term="SEO" scheme="http://www.blackpumpkin.site/tags/SEO/"/>
     
@@ -285,9 +285,9 @@
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
-    
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
     
     <category term="Vercel" scheme="http://www.blackpumpkin.site/tags/Vercel/"/>
     
@@ -331,11 +331,11 @@
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    <category term="markdown" scheme="http://www.blackpumpkin.site/tags/markdown/"/>
     
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="markdown" scheme="http://www.blackpumpkin.site/tags/markdown/"/>
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
     
   </entry>
   
@@ -354,9 +354,9 @@
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
-    
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
     
     <category term="github" scheme="http://www.blackpumpkin.site/tags/github/"/>
     
