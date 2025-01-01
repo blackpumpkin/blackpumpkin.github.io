@@ -6,7 +6,7 @@
   <link href="http://www.blackpumpkin.site/atom.xml" rel="self"/>
   
   <link href="http://www.blackpumpkin.site/"/>
-  <updated>2024-12-13T08:51:03.694Z</updated>
+  <updated>2025-01-01T15:52:53.126Z</updated>
   <id>http://www.blackpumpkin.site/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ACGN实用软件推荐</title>
+    <link href="http://www.blackpumpkin.site/post/8543b17b.html"/>
+    <id>http://www.blackpumpkin.site/post/8543b17b.html</id>
+    <published>2024-12-26T09:28:46.000Z</published>
+    <updated>2025-01-01T15:52:53.126Z</updated>
+    
+    
+    <summary type="html">推荐一些好用的ACG相关软件</summary>
+    
+    
+    
+    <category term="软件推荐" scheme="http://www.blackpumpkin.site/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    
+    
+    <category term="开源软件，软件推荐，ACG" scheme="http://www.blackpumpkin.site/tags/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%EF%BC%8C%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90%EF%BC%8CACG/"/>
+    
+  </entry>
   
   <entry>
     <title>目前使用的vscode插件</title>
@@ -111,7 +130,7 @@
     <link href="http://www.blackpumpkin.site/post/dcca86bd.html"/>
     <id>http://www.blackpumpkin.site/post/dcca86bd.html</id>
     <published>2024-08-17T18:02:13.000Z</published>
-    <updated>2024-12-13T05:49:36.547Z</updated>
+    <updated>2024-12-26T09:31:09.980Z</updated>
     
     
     <summary type="html">旧博客运行太慢，重新进行部署。也在这里做个记录，一旦出现问题就回来看看方便回滚。</summary>
@@ -172,7 +191,7 @@
     <link href="http://www.blackpumpkin.site/post/5c84e6fe.html"/>
     <id>http://www.blackpumpkin.site/post/5c84e6fe.html</id>
     <published>2023-04-16T07:47:36.000Z</published>
-    <updated>2024-11-09T06:03:11.470Z</updated>
+    <updated>2024-12-26T09:31:02.620Z</updated>
     
     
     <summary type="html">每次登上gpt的官网还是挺繁琐的，不如做一个专属于自己的小程序。</summary>
