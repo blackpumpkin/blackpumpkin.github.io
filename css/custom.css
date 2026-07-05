@@ -98,16 +98,41 @@ div#archive {
 }
 /* 页面样式调节结束 */
 
-
 /* 页脚遮罩开始 */
 #footer-wrap a {
   border-radius: 30px;
 }
+
+#footer {
+  background: transparent !important; /* 确保外层全透明，不干扰内层 */
+  padding-top: 20px; /* 给页脚上方留一点呼吸感，防止毛玻璃边缘贴得太死 */
+}
+
 #footer-wrap {
-  padding: 20px 20px;
-  background-color: #12121288 !important;
+  /* 白天模式：直接复用你前面定义的全局变量 */
+  background: var(--trans-light) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+  -webkit-backdrop-filter: var(--backdrop-filter) !important; /* 兼容 Safari 浏览器 */
+  border: var(--border-style);
+  border-radius: 20px 20px 0 0; /* 顶部加圆角，底部贴边保持平直，完美契合你的卡片风格 */
+  
+  padding: 30px 20px;
+  max-width: 1200px; /* 如果你想让页脚和文章块一样宽，可以加上这行；如果想全屏撑满，把它删掉 */
+  margin: 0 auto;    /* 配合 max-width 居中 */
+}
+
+/* 移除 5.5.5 版本白天默认的伪元素干扰 */
+#footer::before {
+  background: transparent !important;
+}
+
+/* 夜间模式适配：复用你的 --trans-dark 变量 */
+[data-theme="dark"] #footer-wrap {
+  background: var(--trans-dark) !important;
+  border-color: rgba(255, 255, 255, 0.1); /* 夜间模式下把边框变暗，防止太刺眼 */
 }
 /* 页脚遮罩结束 */
+
 
 /* 头像呼吸灯 */
 [data-theme="light"] .avatar-img {
