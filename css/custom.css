@@ -1,20 +1,49 @@
-/* 一图流开始 */
-/* 页脚与头图透明 */
-#footer {
-    background: transparent !important;
-  }
-  #page-header {
-    background: transparent !important;
-  }
-  
-  /* 夜间模式遮罩透明 */
-  [data-theme="dark"] #footer::before {
-    background: transparent !important;
-  }
-  [data-theme="dark"] #page-header::before {
-    background: transparent !important;
-  }
-/* 一图流结束 */
+/* ========================================================
+   Butterfly 5.5.5 文章页“一图流”全屏固定背景魔改
+   ======================================================== */
+
+/* 1. 拦截文章页的大背景，将 top_img 的变量直接应用为全屏背景 */
+[data-type="post"] #web_bg {
+  /* 关键：Butterfly 默认会把文章的 top-img 作为一个 CSS 变量 --global-bg 挂在 html/body 上 */
+  background-image: var(--global-bg) !important;
+  background-attachment: fixed !important;  /* 核心：固定背景，滚轮滚动时图片不动 */
+  background-size: cover !important;        /* 裁切铺满屏幕 */
+  background-position: center !important;    /* 居中对齐 */
+}
+
+/* 2. 隐藏原本头部的顶部图背景，防止双重画面错位 */
+[data-type="post"] #page-header {
+  background-image: none !important;
+  background-color: transparent !important;
+  height: 40vh !important; /* 适当降低头部高度，留出更多空间给标题和正文 */
+}
+
+/* 3. 让文章内容容器和侧边栏变透明，这样才能透出底下固定的背景图 */
+[data-type="post"] #content-inner .layout {
+  background: transparent !important;
+}
+
+/* 4. 为文章正文卡片和侧边栏单独加上“半透明通透感”，保证文字清晰可读 */
+[data-type="post"] .post-content,
+[data-type="post"] #aside-content .card-widget {
+  background: rgba(255, 255, 255, 0.85) !important; /* 浅色模式：85% 透明度的白底 */
+  backdrop-filter: blur(6px);                       /* 附赠超好看的毛玻璃效果 */
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 8px !important;
+  padding: 25px !important;
+}
+
+/* 5. 适配暗黑模式：让卡片底色变成半透明黑，贴合暗色氛围 */
+[data-theme="dark"] [data-type="post"] .post-content,
+[data-theme="dark"] [data-type="post"] #aside-content .card-widget {
+  background: rgba(25, 25, 25, 0.75) !important;   /* 暗色模式：75% 透明度的黑底 */
+  color: #e3e3e3 !important;
+}
+
+/* 6. 可选微调：让文章页的标题和元数据（作者、时间）颜色加深，避免在浅色大图下看不清 */
+[data-type="post"] #page-header #post-info {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* 给文字加一层阴影，无论背景多亮都能看清 */
+}
 
 
 /* 页面样式调节开始 */
@@ -26,29 +55,32 @@
 }
 
 /* 首页文章卡片 */
-#recent-posts > .recent-post-item {
-  background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
-  border-radius: 25px;
-  border: var(--border-style);
+#recent-posts .recent-post-item {
+  background: var(--trans-light) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+  -webkit-backdrop-filter: var(--backdrop-filter) !important; /* 兼容 Safari */
+  border-radius: 25px !important;
+  border: var(--border-style) !important;
 }
 
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
-  background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
-  border-radius: 18px;
-  border: var(--border-style);
+  background: var(--trans-light) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+  -webkit-backdrop-filter: var(--backdrop-filter) !important;
+  border-radius: 18px !important;
+  border: var(--border-style) !important;
 }
 
 /* 文章页、归档页、普通页面 */
 div#post,
 div#page,
 div#archive {
-  background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
-  border: var(--border-style);
-  border-radius: 20px;
+  background: var(--trans-light) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+  -webkit-backdrop-filter: var(--backdrop-filter) !important;
+  border: var(--border-style) !important;
+  border-radius: 20px !important;
 }
 
 /* 导航栏 */
@@ -62,19 +94,16 @@ div#archive {
 }
 
 /* 夜间模式遮罩 */
-[data-theme="dark"] #recent-posts > .recent-post-item,
+[data-theme="dark"] #recent-posts .recent-post-item,
 [data-theme="dark"] #aside-content .card-widget,
 [data-theme="dark"] div#post,
 [data-theme="dark"] div#archive,
 [data-theme="dark"] div#page {
-  background: var(--trans-dark);
+  background: var(--trans-dark) !important;
 }
 
 
 /* 夜间模式页脚页头遮罩透明 */
-[data-theme="dark"] #footer::before {
-  background: transparent !important;
-}
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
@@ -108,7 +137,7 @@ div#archive {
   padding-top: 20px; 
 }
 
-/* 核心修正：取消宽度限制，实现全屏铺满 */
+/* 取消宽度限制，实现全屏铺满 */
 .footer-other {
   /* 维持你满意的白天深灰色半透明垫底 */
   background: rgba(30, 30, 30, 0.5) !important; 
@@ -151,9 +180,12 @@ div#archive {
   content: none !important;
 }
 
-/* 夜间模式适配 */
+/* 夜间模式适配：彻底去掉夜间模式的独立遮罩、毛玻璃与边框线条 */
 [data-theme="dark"] .footer-other {
-  background: var(--trans-dark) !important;
+  background: transparent !important;       /* 去掉白天设置的 rgba(30, 30, 30, 0.5) 背景 */
+  backdrop-filter: none !important;         /* 关闭毛玻璃效果，防止和全屏遮罩叠加导致太糊 */
+  -webkit-backdrop-filter: none !important; 
+  border-top: none !important;              /* 移除顶部的白天边框线 */
 }
 /* 页脚遮罩结束 */
 
@@ -300,5 +332,4 @@ div#archive {
   }
 }
 /* 博客宽屏适配结束 */
-
 
