@@ -73,12 +73,6 @@ div#archive {
   background: var(--trans-dark) !important;
 }
 
-
-/* 夜间模式页脚页头遮罩透明 */
-[data-theme="dark"] #page-header::before {
-  background: transparent !important;
-}
-
 /* 阅读模式 */
 .read-mode #aside-content .card-widget {
   background: rgba(158, 204, 171, 0.5) !important;

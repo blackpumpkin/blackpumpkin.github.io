@@ -6,7 +6,7 @@
   <link href="http://www.blackpumpkin.site/atom.xml" rel="self"/>
   
   <link href="http://www.blackpumpkin.site/"/>
-  <updated>2025-02-05T10:59:28.455Z</updated>
+  <updated>2026-07-21T14:12:11.212Z</updated>
   <id>http://www.blackpumpkin.site/</id>
   
   <author>
@@ -15,44 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>ACG实用软件推荐</title>
-    <link href="http://www.blackpumpkin.site/post/8543b17b.html"/>
-    <id>http://www.blackpumpkin.site/post/8543b17b.html</id>
-    <published>2024-12-26T09:28:46.000Z</published>
-    <updated>2025-02-05T10:59:28.455Z</updated>
-    
-    
-    <summary type="html">推荐一些好用的ACG相关软件</summary>
-    
-    
-    
-    <category term="软件推荐" scheme="http://www.blackpumpkin.site/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
-    
-    
-    <category term="开源软件，软件推荐，ACG" scheme="http://www.blackpumpkin.site/tags/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%EF%BC%8C%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90%EF%BC%8CACG/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>目前使用的vscode插件</title>
-    <link href="http://www.blackpumpkin.site/post/ec0943a3.html"/>
-    <id>http://www.blackpumpkin.site/post/ec0943a3.html</id>
-    <published>2024-12-11T16:07:11.000Z</published>
-    <updated>2024-12-13T08:51:03.694Z</updated>
-    
-    
-    <summary type="html">记录一下目前使用的vscode插件</summary>
-    
-    
-    
-    <category term="软件推荐" scheme="http://www.blackpumpkin.site/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
-    
-    
-    <category term="vscode，插件" scheme="http://www.blackpumpkin.site/tags/vscode%EF%BC%8C%E6%8F%92%E4%BB%B6/"/>
-    
-  </entry>
   
   <entry>
     <title>【多图预警】【开箱】Amakuni 舰队Collection -舰娘- 西南风 开箱</title>
@@ -130,7 +92,7 @@
     <link href="http://www.blackpumpkin.site/post/dcca86bd.html"/>
     <id>http://www.blackpumpkin.site/post/dcca86bd.html</id>
     <published>2024-08-17T18:02:13.000Z</published>
-    <updated>2026-07-21T14:12:08.181Z</updated>
+    <updated>2026-07-21T15:11:11.337Z</updated>
     
     
     <summary type="html">旧博客运行太慢，重新进行部署。也在这里做个记录，一旦出现问题就回来看看方便回滚。</summary>
@@ -143,25 +105,6 @@
     <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
     
     <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记录给家里老电脑重装系统的过程</title>
-    <link href="http://www.blackpumpkin.site/post/5e348149.html"/>
-    <id>http://www.blackpumpkin.site/post/5e348149.html</id>
-    <published>2024-02-15T13:22:41.000Z</published>
-    <updated>2024-12-11T16:08:36.210Z</updated>
-    
-    
-    <summary type="html">其实主要是给老爹装个红警玩玩</summary>
-    
-    
-    
-    <category term="重装系统，软件推荐" scheme="http://www.blackpumpkin.site/categories/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%EF%BC%8C%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
-    
-    
-    <category term="系统，重装，windows，软件" scheme="http://www.blackpumpkin.site/tags/%E7%B3%BB%E7%BB%9F%EF%BC%8C%E9%87%8D%E8%A3%85%EF%BC%8Cwindows%EF%BC%8C%E8%BD%AF%E4%BB%B6/"/>
     
   </entry>
   
@@ -183,44 +126,6 @@
     <category term="音声" scheme="http://www.blackpumpkin.site/tags/%E9%9F%B3%E5%A3%B0/"/>
     
     <category term="ACG" scheme="http://www.blackpumpkin.site/tags/ACG/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【ChatGPT】ChatGPT的无服务器部署</title>
-    <link href="http://www.blackpumpkin.site/post/5c84e6fe.html"/>
-    <id>http://www.blackpumpkin.site/post/5c84e6fe.html</id>
-    <published>2023-04-16T07:47:36.000Z</published>
-    <updated>2024-12-26T09:31:02.620Z</updated>
-    
-    
-    <summary type="html">每次登上gpt的官网还是挺繁琐的，不如做一个专属于自己的小程序。</summary>
-    
-    
-    
-    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="chatgpt" scheme="http://www.blackpumpkin.site/tags/chatgpt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【New Bing】New Bing的申请流程分享</title>
-    <link href="http://www.blackpumpkin.site/post/d34481fd.html"/>
-    <id>http://www.blackpumpkin.site/post/d34481fd.html</id>
-    <published>2023-02-21T12:16:51.000Z</published>
-    <updated>2024-08-21T15:07:07.677Z</updated>
-    
-    
-    <summary type="html">试一下微软家的chatgpt如何</summary>
-    
-    
-    
-    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="new_bing" scheme="http://www.blackpumpkin.site/tags/new-bing/"/>
     
   </entry>
   
@@ -336,34 +241,11 @@
   </entry>
   
   <entry>
-    <title>【hexo】markdown书写规范速查</title>
-    <link href="http://www.blackpumpkin.site/post/13950859.html"/>
-    <id>http://www.blackpumpkin.site/post/13950859.html</id>
-    <published>2023-01-02T15:08:36.000Z</published>
-    <updated>2024-08-21T15:05:58.117Z</updated>
-    
-    
-    <summary type="html">一些markdawn的书写规范</summary>
-    
-    
-    
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
-    
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
-    
-    <category term="markdown" scheme="http://www.blackpumpkin.site/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【hexo】分享一下用hexo+github创建博客的过程</title>
     <link href="http://www.blackpumpkin.site/post/86516c22.html"/>
     <id>http://www.blackpumpkin.site/post/86516c22.html</id>
     <published>2022-12-22T06:59:34.000Z</published>
-    <updated>2026-07-05T11:24:30.417Z</updated>
+    <updated>2026-07-21T15:12:30.708Z</updated>
     
     
     <summary type="html">记录自己第一次创建博客的过程</summary>
