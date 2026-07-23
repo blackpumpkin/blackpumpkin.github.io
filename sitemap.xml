@@ -207,14 +207,14 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://www.blackpumpkin.site/tags/chatgpt/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.site/tags/github/</loc>
+    <loc>http://www.blackpumpkin.site/tags/MathJax/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -249,14 +249,14 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.site/tags/chatgpt/</loc>
+    <loc>http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.site/tags/MathJax/</loc>
+    <loc>http://www.blackpumpkin.site/tags/github/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -277,13 +277,6 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.site/tags/SEO/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.blackpumpkin.site/tags/Vercel/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -292,6 +285,13 @@
   
   <url>
     <loc>http://www.blackpumpkin.site/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.blackpumpkin.site/tags/SEO/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -321,7 +321,7 @@
 
   
   <url>
-    <loc>http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -335,7 +335,7 @@
   </url>
   
   <url>
-    <loc>http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
