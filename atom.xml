@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>黑心の南瓜🎃</title>
-  <icon>http://www.blackpumpkin.site/icon.png</icon>
+  <icon>https://blackpumpkin.cc.cd/icon.png</icon>
   <subtitle>Blackpumpkin</subtitle>
-  <link href="http://www.blackpumpkin.site/atom.xml" rel="self"/>
+  <link href="https://blackpumpkin.cc.cd/atom.xml" rel="self"/>
   
-  <link href="http://www.blackpumpkin.site/"/>
+  <link href="https://blackpumpkin.cc.cd/"/>
   <updated>2026-08-11T17:28:17.344Z</updated>
-  <id>http://www.blackpumpkin.site/</id>
+  <id>https://blackpumpkin.cc.cd/</id>
   
   <author>
     <name>黑心の南瓜🎃</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>钱没多少，卡倒是一堆</title>
-    <link href="http://www.blackpumpkin.site/post/d3ed18c3.html"/>
-    <id>http://www.blackpumpkin.site/post/d3ed18c3.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/d3ed18c3.html"/>
+    <id>https://blackpumpkin.cc.cd/post/d3ed18c3.html</id>
     <published>2026-08-11T14:59:45.000Z</published>
     <updated>2026-08-11T17:28:17.344Z</updated>
     
@@ -28,17 +28,17 @@
     
     
     
-    <category term="生活记录" scheme="http://www.blackpumpkin.site/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    <category term="生活记录" scheme="https://blackpumpkin.cc.cd/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="记录" scheme="http://www.blackpumpkin.site/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://blackpumpkin.cc.cd/tags/%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>使用本地大模型进行简单的漫画机翻</title>
-    <link href="http://www.blackpumpkin.site/post/f0633557.html"/>
-    <id>http://www.blackpumpkin.site/post/f0633557.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/f0633557.html"/>
+    <id>https://blackpumpkin.cc.cd/post/f0633557.html</id>
     <published>2026-07-23T13:53:08.000Z</published>
     <updated>2026-07-23T15:36:13.352Z</updated>
     
@@ -47,19 +47,19 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="AI" scheme="http://www.blackpumpkin.site/tags/AI/"/>
+    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
     
-    <category term="ACG" scheme="http://www.blackpumpkin.site/tags/ACG/"/>
+    <category term="ACG" scheme="https://blackpumpkin.cc.cd/tags/ACG/"/>
     
   </entry>
   
   <entry>
     <title>【多图预警】【开箱】Amakuni 舰队Collection -舰娘- 西南风 开箱</title>
-    <link href="http://www.blackpumpkin.site/post/d9ae2451.html"/>
-    <id>http://www.blackpumpkin.site/post/d9ae2451.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/d9ae2451.html"/>
+    <id>https://blackpumpkin.cc.cd/post/d9ae2451.html</id>
     <published>2024-11-15T18:49:25.000Z</published>
     <updated>2026-08-11T16:49:50.131Z</updated>
     
@@ -68,23 +68,23 @@
     
     
     
-    <category term="生活记录" scheme="http://www.blackpumpkin.site/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    <category term="生活记录" scheme="https://blackpumpkin.cc.cd/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="记录" scheme="http://www.blackpumpkin.site/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://blackpumpkin.cc.cd/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="日淘" scheme="http://www.blackpumpkin.site/tags/%E6%97%A5%E6%B7%98/"/>
+    <category term="日淘" scheme="https://blackpumpkin.cc.cd/tags/%E6%97%A5%E6%B7%98/"/>
     
-    <category term="手办" scheme="http://www.blackpumpkin.site/tags/%E6%89%8B%E5%8A%9E/"/>
+    <category term="手办" scheme="https://blackpumpkin.cc.cd/tags/%E6%89%8B%E5%8A%9E/"/>
     
-    <category term="开箱" scheme="http://www.blackpumpkin.site/tags/%E5%BC%80%E7%AE%B1/"/>
+    <category term="开箱" scheme="https://blackpumpkin.cc.cd/tags/%E5%BC%80%E7%AE%B1/"/>
     
   </entry>
   
   <entry>
     <title>测试一下hexo的MathJax功能，顺便记录一些感兴趣的题目</title>
-    <link href="http://www.blackpumpkin.site/post/6649861e.html"/>
-    <id>http://www.blackpumpkin.site/post/6649861e.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/6649861e.html"/>
+    <id>https://blackpumpkin.cc.cd/post/6649861e.html</id>
     <published>2024-11-10T15:32:23.000Z</published>
     <updated>2026-08-09T17:09:52.348Z</updated>
     
@@ -93,23 +93,23 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
-    <category term="AI" scheme="http://www.blackpumpkin.site/tags/AI/"/>
+    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
-    <category term="chatgpt" scheme="http://www.blackpumpkin.site/tags/chatgpt/"/>
+    <category term="MathJax" scheme="https://blackpumpkin.cc.cd/tags/MathJax/"/>
     
-    <category term="MathJax" scheme="http://www.blackpumpkin.site/tags/MathJax/"/>
+    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
     
   </entry>
   
   <entry>
     <title>小记自己第一次日本海淘的流程</title>
-    <link href="http://www.blackpumpkin.site/post/e70c1929.html"/>
-    <id>http://www.blackpumpkin.site/post/e70c1929.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/e70c1929.html"/>
+    <id>https://blackpumpkin.cc.cd/post/e70c1929.html</id>
     <published>2024-11-05T04:41:10.000Z</published>
     <updated>2026-07-23T12:54:04.857Z</updated>
     
@@ -118,21 +118,21 @@
     
     
     
-    <category term="生活记录" scheme="http://www.blackpumpkin.site/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
+    <category term="生活记录" scheme="https://blackpumpkin.cc.cd/categories/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="记录" scheme="http://www.blackpumpkin.site/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://blackpumpkin.cc.cd/tags/%E8%AE%B0%E5%BD%95/"/>
     
-    <category term="日淘" scheme="http://www.blackpumpkin.site/tags/%E6%97%A5%E6%B7%98/"/>
+    <category term="日淘" scheme="https://blackpumpkin.cc.cd/tags/%E6%97%A5%E6%B7%98/"/>
     
-    <category term="转运" scheme="http://www.blackpumpkin.site/tags/%E8%BD%AC%E8%BF%90/"/>
+    <category term="转运" scheme="https://blackpumpkin.cc.cd/tags/%E8%BD%AC%E8%BF%90/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】博客大更新</title>
-    <link href="http://www.blackpumpkin.site/post/dcca86bd.html"/>
-    <id>http://www.blackpumpkin.site/post/dcca86bd.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/dcca86bd.html"/>
+    <id>https://blackpumpkin.cc.cd/post/dcca86bd.html</id>
     <published>2024-08-17T18:02:13.000Z</published>
     <updated>2026-08-11T16:44:44.564Z</updated>
     
@@ -141,19 +141,19 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
   <entry>
     <title>简易音声机翻教程</title>
-    <link href="http://www.blackpumpkin.site/post/f46969ab.html"/>
-    <id>http://www.blackpumpkin.site/post/f46969ab.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/f46969ab.html"/>
+    <id>https://blackpumpkin.cc.cd/post/f46969ab.html</id>
     <published>2023-12-15T01:41:15.000Z</published>
     <updated>2026-07-23T15:35:50.443Z</updated>
     
@@ -162,21 +162,21 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="AI" scheme="http://www.blackpumpkin.site/tags/AI/"/>
+    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
     
-    <category term="ACG" scheme="http://www.blackpumpkin.site/tags/ACG/"/>
+    <category term="ACG" scheme="https://blackpumpkin.cc.cd/tags/ACG/"/>
     
-    <category term="音声" scheme="http://www.blackpumpkin.site/tags/%E9%9F%B3%E5%A3%B0/"/>
+    <category term="音声" scheme="https://blackpumpkin.cc.cd/tags/%E9%9F%B3%E5%A3%B0/"/>
     
   </entry>
   
   <entry>
     <title>【ChatGPT】ChatGPT的注册流程分享</title>
-    <link href="http://www.blackpumpkin.site/post/8ee3673d.html"/>
-    <id>http://www.blackpumpkin.site/post/8ee3673d.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/8ee3673d.html"/>
+    <id>https://blackpumpkin.cc.cd/post/8ee3673d.html</id>
     <published>2023-02-15T02:26:40.000Z</published>
     <updated>2026-07-23T14:03:42.593Z</updated>
     
@@ -185,19 +185,19 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="AI" scheme="http://www.blackpumpkin.site/tags/AI/"/>
+    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
-    <category term="chatgpt" scheme="http://www.blackpumpkin.site/tags/chatgpt/"/>
+    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】图床的使用</title>
-    <link href="http://www.blackpumpkin.site/post/d6899135.html"/>
-    <id>http://www.blackpumpkin.site/post/d6899135.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/d6899135.html"/>
+    <id>https://blackpumpkin.cc.cd/post/d6899135.html</id>
     <published>2023-02-11T03:35:13.000Z</published>
     <updated>2024-08-21T15:39:33.953Z</updated>
     
@@ -206,21 +206,21 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="github" scheme="http://www.blackpumpkin.site/tags/github/"/>
+    <category term="github" scheme="https://blackpumpkin.cc.cd/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】hexo提交到搜索引擎收录</title>
-    <link href="http://www.blackpumpkin.site/post/eb7308cc.html"/>
-    <id>http://www.blackpumpkin.site/post/eb7308cc.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/eb7308cc.html"/>
+    <id>https://blackpumpkin.cc.cd/post/eb7308cc.html</id>
     <published>2023-02-07T03:16:32.000Z</published>
     <updated>2024-11-30T12:19:59.038Z</updated>
     
@@ -229,21 +229,21 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="SEO" scheme="http://www.blackpumpkin.site/tags/SEO/"/>
+    <category term="SEO" scheme="https://blackpumpkin.cc.cd/tags/SEO/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】将hexo部署到托管平台+绑定自定义域名</title>
-    <link href="http://www.blackpumpkin.site/post/fa20ec4f.html"/>
-    <id>http://www.blackpumpkin.site/post/fa20ec4f.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/fa20ec4f.html"/>
+    <id>https://blackpumpkin.cc.cd/post/fa20ec4f.html</id>
     <published>2023-02-07T03:10:22.000Z</published>
     <updated>2024-11-09T06:02:43.650Z</updated>
     
@@ -252,23 +252,23 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="Vercel" scheme="http://www.blackpumpkin.site/tags/Vercel/"/>
+    <category term="Vercel" scheme="https://blackpumpkin.cc.cd/tags/Vercel/"/>
     
-    <category term="自定义域名" scheme="http://www.blackpumpkin.site/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/"/>
+    <category term="自定义域名" scheme="https://blackpumpkin.cc.cd/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
   <entry>
     <title>分享一种可以给外服手游氪金的卡种——美国运通借记卡</title>
-    <link href="http://www.blackpumpkin.site/post/6c05f09f.html"/>
-    <id>http://www.blackpumpkin.site/post/6c05f09f.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/6c05f09f.html"/>
+    <id>https://blackpumpkin.cc.cd/post/6c05f09f.html</id>
     <published>2023-02-03T14:06:41.000Z</published>
     <updated>2026-08-11T15:00:41.762Z</updated>
     
@@ -277,19 +277,19 @@
     
     
     
-    <category term="网络技巧" scheme="http://www.blackpumpkin.site/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
+    <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="储蓄卡申请" scheme="http://www.blackpumpkin.site/tags/%E5%82%A8%E8%93%84%E5%8D%A1%E7%94%B3%E8%AF%B7/"/>
+    <category term="储蓄卡申请" scheme="https://blackpumpkin.cc.cd/tags/%E5%82%A8%E8%93%84%E5%8D%A1%E7%94%B3%E8%AF%B7/"/>
     
-    <category term="游戏氪金" scheme="http://www.blackpumpkin.site/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/"/>
+    <category term="游戏氪金" scheme="https://blackpumpkin.cc.cd/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/"/>
     
   </entry>
   
   <entry>
     <title>【hexo】分享一下用hexo+github创建博客的过程</title>
-    <link href="http://www.blackpumpkin.site/post/86516c22.html"/>
-    <id>http://www.blackpumpkin.site/post/86516c22.html</id>
+    <link href="https://blackpumpkin.cc.cd/post/86516c22.html"/>
+    <id>https://blackpumpkin.cc.cd/post/86516c22.html</id>
     <published>2022-12-22T06:59:34.000Z</published>
     <updated>2026-07-21T15:12:30.708Z</updated>
     
@@ -298,14 +298,14 @@
     
     
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/categories/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="hexo" scheme="http://www.blackpumpkin.site/tags/hexo/"/>
+    <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
-    <category term="博客技巧" scheme="http://www.blackpumpkin.site/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
+    <category term="博客技巧" scheme="https://blackpumpkin.cc.cd/tags/%E5%8D%9A%E5%AE%A2%E6%8A%80%E5%B7%A7/"/>
     
-    <category term="github" scheme="http://www.blackpumpkin.site/tags/github/"/>
+    <category term="github" scheme="https://blackpumpkin.cc.cd/tags/github/"/>
     
   </entry>
   
