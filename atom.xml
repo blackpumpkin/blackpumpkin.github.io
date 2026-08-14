@@ -98,11 +98,11 @@
     
     <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
+    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
+    
     <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
     <category term="MathJax" scheme="https://blackpumpkin.cc.cd/tags/MathJax/"/>
-    
-    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
     
   </entry>
   
@@ -188,9 +188,9 @@
     <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
-    
     <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
+    
+    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
   </entry>
   
