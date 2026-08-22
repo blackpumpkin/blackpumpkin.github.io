@@ -1,9 +1,6 @@
 # 允许所有主流搜索引擎抓取
 User-agent: *
 Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
 
 # 屏蔽无需索引的静态资源与第三方库文件夹（节省爬虫额度）
 Disallow: /js/

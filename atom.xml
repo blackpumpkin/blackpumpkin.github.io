@@ -6,7 +6,7 @@
   <link href="https://blackpumpkin.cc.cd/atom.xml" rel="self"/>
   
   <link href="https://blackpumpkin.cc.cd/"/>
-  <updated>2026-08-14T05:34:34.062Z</updated>
+  <updated>2026-08-22T19:59:11.302Z</updated>
   <id>https://blackpumpkin.cc.cd/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>心灵终结336的ini魔改</title>
+    <link href="https://blackpumpkin.cc.cd/post/cfcdd1a.html"/>
+    <id>https://blackpumpkin.cc.cd/post/cfcdd1a.html</id>
+    <published>2026-08-22T18:30:58.000Z</published>
+    <updated>2026-08-22T19:59:11.302Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一些准备：&quot;&gt;&lt;a href=&quot;#一些准备：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>钱没多少，卡倒是一堆</title>
@@ -96,13 +117,13 @@
     <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
+    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
+    
     <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
     <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
     <category term="MathJax" scheme="https://blackpumpkin.cc.cd/tags/MathJax/"/>
-    
-    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
     
   </entry>
   
@@ -188,9 +209,9 @@
     <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
-    
     <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
+    
+    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
   </entry>
   
@@ -222,7 +243,7 @@
     <link href="https://blackpumpkin.cc.cd/post/eb7308cc.html"/>
     <id>https://blackpumpkin.cc.cd/post/eb7308cc.html</id>
     <published>2023-02-07T03:16:32.000Z</published>
-    <updated>2026-08-14T17:27:51.043Z</updated>
+    <updated>2026-08-14T17:44:06.669Z</updated>
     
     
     <summary type="html">将hexo提交到搜索引擎收录</summary>
