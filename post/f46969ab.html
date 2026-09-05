@@ -312,7 +312,7 @@
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://astounding-centaur-7e0b7a.netlify.app/.netlify/functions/twikoo',
+      envId: 'https://twikooapi123.netlify.app/.netlify/functions/twikoo',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -326,7 +326,7 @@
   const init = (el = document, path = location.pathname) => {
     twikoo.init({
       el: el.querySelector('#twikoo-wrap'),
-      envId: 'https://astounding-centaur-7e0b7a.netlify.app/.netlify/functions/twikoo',
+      envId: 'https://twikooapi123.netlify.app/.netlify/functions/twikoo',
       region: '',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -429,7 +429,7 @@
   const getComment = ele => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://astounding-centaur-7e0b7a.netlify.app/.netlify/functions/twikoo',
+        envId: 'https://twikooapi123.netlify.app/.netlify/functions/twikoo',
         region: '',
         pageSize: 6,
         includeReply: true
