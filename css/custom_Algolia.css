@@ -1,0 +1,6 @@
+/* Algolia 搜索弹窗主题样式 */
+
+/* 1. 标题“搜索”颜色 */
+#algolia-search .search-dialog-title {
+  color: #ffb7c5 !important; /* 可替换为你喜欢的绿色 Hex 码 */
+}
