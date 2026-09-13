@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blackpumpkin.cc.cd/post/dcca86bd.html</loc>
+    
+    <lastmod>2026-09-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blackpumpkin.cc.cd/link/index.html</loc>
     
     <lastmod>2026-09-05</lastmod>
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://blackpumpkin.cc.cd/post/e70c1929.html</loc>
-    
-    <lastmod>2026-08-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blackpumpkin.cc.cd/post/dcca86bd.html</loc>
     
     <lastmod>2026-08-26</lastmod>
     
@@ -248,14 +248,21 @@
   </url>
   
   <url>
-    <loc>https://blackpumpkin.cc.cd/tags/AI/</loc>
+    <loc>https://blackpumpkin.cc.cd/tags/chatgpt/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blackpumpkin.cc.cd/tags/ACG/</loc>
+    <loc>https://blackpumpkin.cc.cd/tags/MathJax/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blackpumpkin.cc.cd/tags/AI/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -290,20 +297,6 @@
   </url>
   
   <url>
-    <loc>https://blackpumpkin.cc.cd/tags/chatgpt/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blackpumpkin.cc.cd/tags/MathJax/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blackpumpkin.cc.cd/tags/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -312,20 +305,6 @@
   
   <url>
     <loc>https://blackpumpkin.cc.cd/tags/mod/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blackpumpkin.cc.cd/tags/%E5%82%A8%E8%93%84%E5%8D%A1%E7%94%B3%E8%AF%B7/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blackpumpkin.cc.cd/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -346,7 +325,28 @@
   </url>
   
   <url>
+    <loc>https://blackpumpkin.cc.cd/tags/%E5%82%A8%E8%93%84%E5%8D%A1%E7%94%B3%E8%AF%B7/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blackpumpkin.cc.cd/tags/%E6%B8%B8%E6%88%8F%E6%B0%AA%E9%87%91/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blackpumpkin.cc.cd/tags/SEO/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blackpumpkin.cc.cd/tags/ACG/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
