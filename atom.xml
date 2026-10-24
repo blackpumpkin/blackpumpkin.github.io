@@ -6,7 +6,7 @@
   <link href="https://blackpumpkin.cc.cd/atom.xml" rel="self"/>
   
   <link href="https://blackpumpkin.cc.cd/"/>
-  <updated>2026-10-24T17:10:19.000Z</updated>
+  <updated>2026-10-24T17:48:52.288Z</updated>
   <id>https://blackpumpkin.cc.cd/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blackpumpkin.cc.cd/post/f96ef007.html"/>
     <id>https://blackpumpkin.cc.cd/post/f96ef007.html</id>
     <published>2026-10-20T14:31:38.000Z</published>
-    <updated>2026-10-24T17:10:19.000Z</updated>
+    <updated>2026-10-24T17:48:52.288Z</updated>
     
     
     <summary type="html">中国银行推出的B站联名借记卡对二次元及B站用户极具收藏与使用价值</summary>
@@ -82,7 +82,7 @@
     <link href="https://blackpumpkin.cc.cd/post/f0633557.html"/>
     <id>https://blackpumpkin.cc.cd/post/f0633557.html</id>
     <published>2026-07-23T13:53:08.000Z</published>
-    <updated>2026-07-22T17:10:19.000Z</updated>
+    <updated>2026-07-23T13:53:08.000Z</updated>
     
     
     <summary type="html">通过Sakura加载本地翻译大模型，完成生肉翻译</summary>
@@ -103,7 +103,7 @@
     <link href="https://blackpumpkin.cc.cd/post/d9ae2451.html"/>
     <id>https://blackpumpkin.cc.cd/post/d9ae2451.html</id>
     <published>2024-11-15T18:49:25.000Z</published>
-    <updated>2024-11-14T17:10:19.000Z</updated>
+    <updated>2024-11-15T18:49:25.000Z</updated>
     
     
     <summary type="html">心心念念的西南风手办终于到了，拿出来分享一下。</summary>
@@ -128,7 +128,7 @@
     <link href="https://blackpumpkin.cc.cd/post/6649861e.html"/>
     <id>https://blackpumpkin.cc.cd/post/6649861e.html</id>
     <published>2024-11-10T15:32:23.000Z</published>
-    <updated>2024-11-09T17:10:19.000Z</updated>
+    <updated>2026-10-25T04:41:10.000Z</updated>
     
     
     <summary type="html">用一些题目看看MathJax功能的体现。</summary>
@@ -140,11 +140,11 @@
     
     <category term="hexo" scheme="https://blackpumpkin.cc.cd/tags/hexo/"/>
     
+    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
+    
     <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
     <category term="MathJax" scheme="https://blackpumpkin.cc.cd/tags/MathJax/"/>
-    
-    <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
     
   </entry>
   
@@ -153,7 +153,7 @@
     <link href="https://blackpumpkin.cc.cd/post/e70c1929.html"/>
     <id>https://blackpumpkin.cc.cd/post/e70c1929.html</id>
     <published>2024-11-05T04:41:10.000Z</published>
-    <updated>2024-11-04T17:10:19.000Z</updated>
+    <updated>2024-11-05T04:41:10.000Z</updated>
     
     
     <summary type="html">小记自己第一次日淘的流程。</summary>
@@ -197,7 +197,7 @@
     <link href="https://blackpumpkin.cc.cd/post/f46969ab.html"/>
     <id>https://blackpumpkin.cc.cd/post/f46969ab.html</id>
     <published>2023-12-15T01:41:15.000Z</published>
-    <updated>2023-12-14T17:10:19.000Z</updated>
+    <updated>2023-12-15T01:41:15.000Z</updated>
     
     
     <summary type="html">有时从网上下载的音声没有翻译，我们可以用此方法解决燃眉之急。</summary>
@@ -220,7 +220,7 @@
     <link href="https://blackpumpkin.cc.cd/post/8ee3673d.html"/>
     <id>https://blackpumpkin.cc.cd/post/8ee3673d.html</id>
     <published>2023-02-15T02:26:40.000Z</published>
-    <updated>2023-02-14T17:10:19.000Z</updated>
+    <updated>2023-02-15T02:26:40.000Z</updated>
     
     
     <summary type="html">分享一下ChatGPT的注册流程。</summary>
@@ -230,9 +230,9 @@
     <category term="网络技巧" scheme="https://blackpumpkin.cc.cd/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
-    
     <category term="AI" scheme="https://blackpumpkin.cc.cd/tags/AI/"/>
+    
+    <category term="chatgpt" scheme="https://blackpumpkin.cc.cd/tags/chatgpt/"/>
     
   </entry>
   
@@ -241,7 +241,7 @@
     <link href="https://blackpumpkin.cc.cd/post/d6899135.html"/>
     <id>https://blackpumpkin.cc.cd/post/d6899135.html</id>
     <published>2023-02-11T03:35:13.000Z</published>
-    <updated>2023-02-10T17:10:19.000Z</updated>
+    <updated>2023-02-11T03:35:13.000Z</updated>
     
     
     <summary type="html">使用图床可以给服务器减轻压力，对于网站的访问也会提高一定的速度。</summary>
@@ -264,7 +264,7 @@
     <link href="https://blackpumpkin.cc.cd/post/eb7308cc.html"/>
     <id>https://blackpumpkin.cc.cd/post/eb7308cc.html</id>
     <published>2023-02-07T03:16:32.000Z</published>
-    <updated>2023-02-06T17:10:19.000Z</updated>
+    <updated>2023-02-07T03:16:32.000Z</updated>
     
     
     <summary type="html">将hexo提交到搜索引擎收录</summary>
@@ -287,7 +287,7 @@
     <link href="https://blackpumpkin.cc.cd/post/fa20ec4f.html"/>
     <id>https://blackpumpkin.cc.cd/post/fa20ec4f.html</id>
     <published>2023-02-07T03:10:22.000Z</published>
-    <updated>2023-02-06T17:10:19.000Z</updated>
+    <updated>2023-02-07T03:10:22.000Z</updated>
     
     
     <summary type="html">部署到托管平台、绑定自己购买的域名</summary>
@@ -312,7 +312,7 @@
     <link href="https://blackpumpkin.cc.cd/post/6c05f09f.html"/>
     <id>https://blackpumpkin.cc.cd/post/6c05f09f.html</id>
     <published>2023-02-03T14:06:41.000Z</published>
-    <updated>2023-02-02T17:10:19.000Z</updated>
+    <updated>2023-02-03T14:06:41.000Z</updated>
     
     
     <summary type="html">为了给碧蓝档案氪金，写下了办卡的全流程</summary>
